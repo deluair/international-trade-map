@@ -1,0 +1,4235 @@
+{
+  "metadata": {
+    "scenario": "baseline",
+    "start_year": 2025,
+    "end_year": 2030,
+    "timestamp": "2025-04-15 16:43:37"
+  },
+  "yearly_data": {
+    "2025": {
+      "global_market": {
+        "year_index": 0,
+        "simulation_year": 2025,
+        "global_scenario": "baseline",
+        "key_markets": {
+          "year_index": 0,
+          "simulation_year": 2025,
+          "gdp_growth": {},
+          "market_demand": {
+            "usa": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.04096714153011233,
+              "characteristics": {
+                "price_sensitivity": 0.6,
+                "quality_sensitivity": 0.71,
+                "lead_time_sensitivity": 0.8,
+                "compliance_sensitivity": 0.91,
+                "e_commerce_penetration": 0.72,
+                "ethical_consumption_premium": 0.61
+              }
+            },
+            "eu": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.033999999999999996,
+              "characteristics": {
+                "price_sensitivity": 0.5,
+                "quality_sensitivity": 0.81,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.91,
+                "e_commerce_penetration": 0.72,
+                "ethical_consumption_premium": 0.81
+              }
+            },
+            "china": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.046,
+              "characteristics": {
+                "price_sensitivity": 0.8,
+                "quality_sensitivity": 0.61,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.4,
+                "e_commerce_penetration": 0.8200000000000001,
+                "ethical_consumption_premium": 0.32
+              }
+            },
+            "india": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.046,
+              "characteristics": {
+                "price_sensitivity": 0.9,
+                "quality_sensitivity": 0.51,
+                "lead_time_sensitivity": 0.6,
+                "compliance_sensitivity": 0.3,
+                "e_commerce_penetration": 0.52,
+                "ethical_consumption_premium": 0.22
+              }
+            },
+            "japan": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.030999999999999996,
+              "characteristics": {
+                "price_sensitivity": 0.4,
+                "quality_sensitivity": 0.91,
+                "lead_time_sensitivity": 0.8,
+                "compliance_sensitivity": 0.81,
+                "e_commerce_penetration": 0.62,
+                "ethical_consumption_premium": 0.71
+              }
+            },
+            "asean": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.036,
+              "characteristics": {
+                "price_sensitivity": 0.7,
+                "quality_sensitivity": 0.61,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.51,
+                "e_commerce_penetration": 0.62,
+                "ethical_consumption_premium": 0.42000000000000004
+              }
+            },
+            "other": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.036,
+              "characteristics": {
+                "price_sensitivity": 0.7,
+                "quality_sensitivity": 0.61,
+                "lead_time_sensitivity": 0.6,
+                "compliance_sensitivity": 0.51,
+                "e_commerce_penetration": 0.52,
+                "ethical_consumption_premium": 0.42000000000000004
+              }
+            }
+          },
+          "weighted_growth": 0.03649178538252808,
+          "market_weights": {
+            "usa": 0.25,
+            "eu": 0.55,
+            "china": 0.03,
+            "india": 0.02,
+            "japan": 0.03,
+            "asean": 0.04,
+            "other": 0.08
+          }
+        },
+        "competitors": {
+          "year_index": 0,
+          "simulation_year": 2025,
+          "effective_growth": {},
+          "competitive_position": {
+            "vietnam": {
+              "competitiveness_score": 1.2075494466019419,
+              "factors": {
+                "wage_level": 1.236,
+                "productivity": 1.4349999999999998,
+                "quality": 1.3316550000000003,
+                "lead_time": 1.2,
+                "infrastructure": 1.5150000000000001,
+                "political_stability": 1.4
+              }
+            },
+            "india": {
+              "competitiveness_score": 1.076929279929391,
+              "factors": {
+                "wage_level": 1.1330000000000002,
+                "productivity": 1.3273,
+                "quality": 1.2279276000000001,
+                "lead_time": 0.9,
+                "infrastructure": 1.1110000000000002,
+                "political_stability": 1.0
+              }
+            },
+            "cambodia": {
+              "competitiveness_score": 0.8903512959223302,
+              "factors": {
+                "wage_level": 1.03,
+                "productivity": 0.9162,
+                "quality": 0.9172457999999999,
+                "lead_time": 0.8,
+                "infrastructure": 0.8240000000000001,
+                "political_stability": 0.7
+              }
+            },
+            "ethiopia": {
+              "competitiveness_score": 0.9314315932038836,
+              "factors": {
+                "wage_level": 0.618,
+                "productivity": 0.7104999999999999,
+                "quality": 0.7119734999999999,
+                "lead_time": 0.6,
+                "infrastructure": 0.515,
+                "political_stability": 0.5
+              }
+            },
+            "myanmar": {
+              "competitiveness_score": 0.8105133499029126,
+              "factors": {
+                "wage_level": 0.8240000000000001,
+                "productivity": 0.7111999999999999,
+                "quality": 0.7119784,
+                "lead_time": 0.7,
+                "infrastructure": 0.618,
+                "political_stability": 0.3
+              }
+            }
+          },
+          "weighted_growth": 0
+        },
+        "supply_chain": {
+          "year_index": 0,
+          "simulation_year": 2025,
+          "china_plus_one": 0.71,
+          "nearshoring_trend": 0.515,
+          "resilience_premium": 0.20500000000000002,
+          "lead_time_requirements": {
+            "fast_fashion": 29.4,
+            "seasonal_fashion": 58.8,
+            "basics": 89.1,
+            "technical_products": 74.25
+          },
+          "inventory_patterns": {
+            "just_in_time": 0.41000000000000003,
+            "buffer_stock": 0.395,
+            "strategic_reserves": 0.195
+          },
+          "china_plus_one_benefit": 0.49699999999999994,
+          "nearshoring_impact": 0.309,
+          "resilience_benefit": 0.08200000000000002,
+          "lead_time_impact": -0.09630292188431727,
+          "inventory_impact": -0.08399999999999999,
+          "net_impact": 0.0896970781156827
+        },
+        "market_opportunity": 0.021895071229516845,
+        "supply_chain_opportunity": 0.18799999999999994,
+        "sector_demand": {}
+      },
+      "geopolitical": {
+        "year_index": 0,
+        "simulation_year": 2025,
+        "regional_integration": {
+          "year_index": 0,
+          "simulation_year": 2025,
+          "bbin_implementation": 0.315,
+          "bay_of_bengal_cooperation": 0.41000000000000003,
+          "saarc_revival_probability": 0.32195981825434217,
+          "saarc_revival_occurred": false,
+          "bilateral_relations": {
+            "india": {
+              "political_level": 0.5861735698828815,
+              "economic_level": 0.6930867849414407,
+              "security_level": 0.4861735698828815,
+              "relationship_score": 0.6089388559063053
+            },
+            "china": {
+              "political_level": 0.6765846625276664,
+              "economic_level": 0.7882923312638332,
+              "security_level": 0.5765846625276664,
+              "relationship_score": 0.7012677300221332
+            },
+            "myanmar": {
+              "political_level": 0.3531726086101639,
+              "economic_level": 0.4765863043050819,
+              "security_level": 0.2531726086101639,
+              "relationship_score": 0.38253808688813107
+            }
+          },
+          "rohingya_crisis_severity": 0.6799999999999999,
+          "trade_facilitation_score": 0.279,
+          "stability_score": 0.4954428201539445,
+          "market_access": {
+            "india": 0.5418520709648644,
+            "china": 0.6748046318846832
+          }
+        },
+        "global_power_shifts": {
+          "year_index": 0,
+          "simulation_year": 2025,
+          "us_china_tension": 0.69,
+          "india_china_tension": 0.59,
+          "power_alignment": {
+            "us": 0.5789606407753696,
+            "china": 0.6830992879148867,
+            "india": 0.6146741742800963,
+            "eu": 0.6108512008717193,
+            "russia": 0.3907316461437508,
+            "japan": 0.49068540492859486
+          },
+          "development_finance": {
+            "western": {
+              "volume": 1020.7896064077537,
+              "conditionality": 0.6975
+            },
+            "asian": {
+              "volume": 1581.8662232968084,
+              "conditionality": 0.39875000000000005
+            },
+            "availability": 1.0410623318818248
+          },
+          "indo_pacific": {
+            "engagement_level": 0.4036685941866264,
+            "strategic_importance": 0.61
+          },
+          "favorable_relations_score": 0.610280139454358,
+          "tension_level": 0.622
+        },
+        "trade_war_impacts": {
+          "year_index": 0,
+          "simulation_year": 2025,
+          "trade_war_probability": 0.29,
+          "active_trade_wars": {
+            "us_china": {
+              "started_year": 2025,
+              "intensity": 0.9,
+              "duration_years": 3
+            },
+            "china_vietnam": {
+              "started_year": 2025,
+              "intensity": 0.3854838357273374,
+              "duration_years": 3
+            }
+          },
+          "new_trade_wars": {
+            "us_china": {
+              "started_year": 2025,
+              "intensity": 0.7069318008570266,
+              "duration_years": 3
+            },
+            "china_vietnam": {
+              "started_year": 2025,
+              "intensity": 0.36674314376563494,
+              "duration_years": 3
+            }
+          },
+          "ended_trade_wars": [],
+          "order_diversion_potential": {
+            "rmg": 0.6039934756431672,
+            "footwear": 0.5102846887682723,
+            "light_manufacturing": 0.4118482913772409,
+            "electronics": 0.30092900825439994,
+            "other": 0.21215089703802878
+          },
+          "market_diversification": 0.405,
+          "secondary_sanction_exposure": 0.2969,
+          "tariff_escalation": 0.11976621914661632,
+          "order_diversion_opportunities": {
+            "rmg": 0.36169007483503013,
+            "footwear": 0.305574339310919,
+            "light_manufacturing": 0.24662756360123061,
+            "electronics": 0.18020564775085188,
+            "other": 0.12704255413403895
+          },
+          "sanction_risk": 0.10667577139389116,
+          "opportunity_score": 0.13895689373032252,
+          "vulnerability_score": 0.41052324382932326
+        },
+        "bri_impact": 0.05949999999999999,
+        "trade_benefit": 0.32842542058237195,
+        "trade_risk": 0.5233241271026137,
+        "net_geopolitical_impact": -0.19489870652024172
+      },
+      "investment": {
+        "fdi_inflow": 3.185015057311734,
+        "domestic_investment": 128.22315247069182,
+        "sez_exports": 4.103962359268953,
+        "active_sezs": 8,
+        "investment_policy_index": 0.561930259041199,
+        "fdi_sectors": {
+          "manufacturing": 0.4446246733931113,
+          "services": 0.30187984731310086,
+          "energy": 0.1500120468078606,
+          "infrastructure": 0.10348343248592722
+        },
+        "domestic_sectors": {
+          "manufacturing": 0.30524339371552667,
+          "services": 0.3531950412018189,
+          "agriculture": 0.14211733476152627,
+          "infrastructure": 0.19944423032112824
+        },
+        "gdp": 378.4139813838078
+      },
+      "trade_policy": {
+        "year_index": 0,
+        "simulation_year": 2025,
+        "tariff_rates": {},
+        "market_access_score": 0.7,
+        "domestic_policy_score": 0.5,
+        "fta_coverage": 0.0,
+        "economic_zones_operational": 0,
+        "ldc_benefits_active": true
+      },
+      "logistics": {
+        "year_index": 0,
+        "simulation_year": 2025,
+        "overall_performance": 0.26973060404761906,
+        "port_performance": 0.0,
+        "transport_performance": 0.5320431,
+        "facilitation_performance": 0.33406207619047623,
+        "logistics_cost": 0.1730269395952381,
+        "time_delay": 11.151346979761904,
+        "reliability": 0.6539461208095237,
+        "port_results": {},
+        "transport_result": {
+          "year_index": 0,
+          "simulation_year": 2025,
+          "modal_shares": {
+            "road": 0.5954999999999999,
+            "rail": 0.153,
+            "waterway": 0.2515
+          },
+          "road_quality": 0.606,
+          "road_capacity": 1.02,
+          "rail_share": 0.153,
+          "rail_quality": 0.509,
+          "waterway_share": 0.2515,
+          "waterway_quality": 0.606,
+          "road_performance": 0.5454,
+          "rail_performance": 0.4581,
+          "waterway_performance": 0.5454,
+          "performance_score": 0.5320431,
+          "transport_cost": 1.0,
+          "disruption_impact": {
+            "road": 0.09999999999999999,
+            "rail": 0.1,
+            "waterway": 0.1
+          }
+        },
+        "facilitation_result": {
+          "year_index": 0,
+          "simulation_year": 2025,
+          "customs_level": 0.512,
+          "single_window_adoption": 0.0,
+          "paperless_trade_level": 0.318,
+          "documentary_compliance": {
+            "time_days": 2.9847,
+            "cost_usd": 199.45999999999998
+          },
+          "border_compliance": {
+            "time_days": 4.9772,
+            "cost_usd": 398.97999999999996
+          },
+          "corruption_incidence": 0.38958400000000004,
+          "performance_score": 0.33406207619047623
+        },
+        "container_volume": 1000.0,
+        "aggregate_port_capacity": 0,
+        "capacity_utilization": 1
+      },
+      "exchange_rate": {
+        "year_index": 0,
+        "exchange_rate": 113.95986038244175,
+        "real_effective_rate": 1.0159987307494704,
+        "depreciation_rate": 0.035998730749470444,
+        "potential_depreciation": 0.035998730749470444,
+        "foreign_reserves": 47000,
+        "reserve_months": 9.4,
+        "trade_balance": -10000,
+        "current_account_balance": 8500,
+        "capital_account_balance": 3500,
+        "overall_balance": 12000,
+        "intervention_cost": 0,
+        "export_impact": 0.02519911152462931,
+        "import_impact": -0.021599238449682267,
+        "remittance_impact": 0.014399492299788179,
+        "market_volatility": -0.030012692505295587,
+        "exchange_rate_pressure": 0.09000000000000001
+      },
+      "compliance": {
+        "year_index": 0,
+        "simulation_year": 2025,
+        "labor_standards": {
+          "year_index": 0,
+          "simulation_year": 2025,
+          "minimum_wage": 81.24,
+          "minimum_wage_growth": 0.08320000000000001,
+          "living_wage": 156.0,
+          "living_wage_gap": 0.47923076923076924,
+          "standards_compliance": {
+            "wage_compliance": 0.7309243982104663,
+            "safety_compliance": 0.8227103400126219,
+            "working_hours_compliance": 0.6167444025972536,
+            "child_labor_compliance": 0.907934478053244,
+            "union_rights_compliance": 0.5231324461360248
+          },
+          "average_compliance": 0.7202892130019222,
+          "compliance_cost": 0.06320867639005767,
+          "market_premium": 0.04240578426003844,
+          "unrest_risk": 0.3077177232545962,
+          "unrest_occurs": false
+        },
+        "environmental_compliance": {
+          "year_index": 0,
+          "simulation_year": 2025,
+          "carbon_tax_implemented": false,
+          "carbon_tax_rate": 0,
+          "green_certification_adoption": 0.30800000000000005,
+          "compliance_areas": {
+            "water_treatment": 0.6264254491210318,
+            "air_emissions": 0.5072915635002898,
+            "chemical_management": 0.7189886359500475,
+            "waste_management": 0.6,
+            "energy_efficiency": 0.40751813951101573
+          },
+          "average_compliance": 0.5720447576164769,
+          "carbon_intensity": 0.7997767215747769,
+          "compliance_cost": 0.014520895152329539,
+          "market_premium": 0.02741293990994602
+        },
+        "product_standards": {
+          "year_index": 0,
+          "simulation_year": 2025,
+          "testing_capacity": 0.5624,
+          "compliance_capability": 0.65292,
+          "sector_standards": {
+            "rmg": {
+              "requirements": 0.62592,
+              "compliance": 0.7586928,
+              "gap": -0.1327727999999999
+            },
+            "pharma": {
+              "requirements": 0.8432000000000001,
+              "compliance": 0.8528288,
+              "gap": -0.009628799999999993
+            },
+            "food": {
+              "requirements": 0.7453599999999999,
+              "compliance": 0.6477208,
+              "gap": 0.09763919999999993
+            },
+            "electronics": {
+              "requirements": 0.7905,
+              "compliance": 0.5929638,
+              "gap": 0.19753619999999994
+            },
+            "other": {
+              "requirements": 0.62592,
+              "compliance": 0.6536928,
+              "gap": -0.02777279999999993
+            }
+          },
+          "certifications": {
+            "iso9001": 0.42475492710400004,
+            "iso14001": 0.32716165612799997,
+            "halal": 0.52234819808,
+            "gmp": 0.619941469056,
+            "other": 0.32716165612799997
+          },
+          "average_requirements": 0.72618,
+          "average_compliance": 0.7011798,
+          "average_gap": 0.025000200000000028,
+          "compliance_cost": 0.019716341812992002,
+          "market_premium": 0.032961241838976
+        },
+        "total_compliance_cost": 0.03555464164561953,
+        "total_market_premium": 0.03357528379368274,
+        "net_compliance_impact": -0.001979357851936786
+      },
+      "structural_transformation": {
+        "export_diversity_hhi": 0.6823365358469416,
+        "export_sectors": {
+          "rmg": 40.33520923650558,
+          "leather": 2.002881387717196,
+          "jute": 1.3597579857616071,
+          "frozen_food": 0.7278458958129571,
+          "pharma": 0.18555172963518993,
+          "it_services": 1.5051097456181635,
+          "light_engineering": 0.5459150309910795,
+          "agro_processing": 0.8501260319819312,
+          "home_textiles": 1.1543655686648138,
+          "shipbuilding": 0.33011740362405456
+        },
+        "value_chain_position": {
+          "rmg": 0.2639053064157724,
+          "leather": 0.3141681187539687,
+          "jute": 0.42228391887540345,
+          "frozen_food": 0.37044126307364006,
+          "pharma": 0.474072657343859,
+          "it_services": 0.6200648887256482,
+          "light_engineering": 0.4199616845169477,
+          "agro_processing": 0.3767740480360885,
+          "home_textiles": 0.318225843159892,
+          "shipbuilding": 0.518876528206552
+        },
+        "capability_index": 0.3702453714822447,
+        "industrial_policy_effectiveness": 0.5194815801891397
+      },
+      "digital_trade": {
+        "ecommerce_adoption_rate": 0.2078091155747549,
+        "digital_services_exports": 1.7019616930731085,
+        "digital_infrastructure_index": 0.4238348111286674,
+        "digital_trade_barriers": 0.5977087808172169
+      },
+      "services_trade": {
+        "remittance_inflow": 18.911935100402577,
+        "overseas_workers": 8.251159310260618,
+        "tourism_earnings": 0.5239532109462195,
+        "tourist_arrivals": 0.8162983656000572,
+        "business_process_exports": 1.3681201715291675,
+        "professional_services_exports": 0.5811189441244037,
+        "service_fdi_inflow": 1.2342737777057602
+      },
+      "export": {
+        "total_exports": 44080.239768614476,
+        "sector_details": {
+          "rmg": {
+            "sector_name": "rmg",
+            "year_index": 0,
+            "export_volume": 38287.80286510839,
+            "growth_rate": 0.09393722471738249,
+            "global_market_share": 0.06076724669660858,
+            "competitiveness": 0.6849999999999999,
+            "value_chain_position": "low_to_mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.003937224717382471
+          },
+          "pharma": {
+            "sector_name": "pharma",
+            "year_index": 0,
+            "export_volume": 1717.1539973998622,
+            "growth_rate": 0.1447693315999082,
+            "global_market_share": 0.010229538663199818,
+            "competitiveness": 0.6649999999999999,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.014769331599908208
+          },
+          "it_services": {
+            "sector_name": "it_services",
+            "year_index": 0,
+            "export_volume": 1396.1128387485594,
+            "growth_rate": 0.16342736562379942,
+            "global_market_share": 0.0051334273656238,
+            "competitiveness": 0.725,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.00342736562379941
+          },
+          "leather": {
+            "sector_name": "leather",
+            "year_index": 0,
+            "export_volume": 1107.687034352235,
+            "growth_rate": 0.1076870343522352,
+            "global_market_share": 0.015233061103056705,
+            "competitiveness": 0.625,
+            "value_chain_position": "low_to_mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.0023129656477648107
+          },
+          "jute": {
+            "sector_name": "jute",
+            "year_index": 0,
+            "export_volume": 843.1823408705715,
+            "growth_rate": 0.05397792608821424,
+            "global_market_share": 0.4019182340870572,
+            "competitiveness": 0.725,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.0060220739117857755
+          },
+          "agro_products": {
+            "sector_name": "agro_products",
+            "year_index": 0,
+            "export_volume": 728.300692134856,
+            "growth_rate": 0.040429560192651454,
+            "global_market_share": 0.010020859120385304,
+            "competitiveness": 0.625,
+            "value_chain_position": "low",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.02957043980734855
+          }
+        }
+      },
+      "import": {
+        "total_imports": 44929.462432802124,
+        "category_details": {
+          "industrial_inputs": {
+            "category_name": "industrial_inputs",
+            "year_index": 0,
+            "import_volume": 24889.536360762297,
+            "growth_rate": -0.004418545569508159,
+            "domestic_production_ratio": 0.3063180152310063,
+            "total_consumption": 37142.857142857145,
+            "price_impact": 0.028400761550317736,
+            "price_elasticity_effect": -0.019880533085222415,
+            "substitution_effect": 0.011360304620127095,
+            "random_variation": -0.014396884167894173
+          },
+          "consumer_goods": {
+            "category_name": "consumer_goods",
+            "year_index": 0,
+            "import_volume": 14905.656098094725,
+            "growth_rate": -0.006289593460351628,
+            "domestic_production_ratio": 0.5066020228465096,
+            "total_consumption": 31200.0,
+            "price_impact": 0.028400761550317736,
+            "price_elasticity_effect": -0.02272060924025419,
+            "substitution_effect": 0.017040456930190642,
+            "random_variation": -0.00921277541919575
+          },
+          "energy": {
+            "category_name": "energy",
+            "year_index": 0,
+            "import_volume": 5134.269973945095,
+            "growth_rate": 0.026853994789019175,
+            "domestic_production_ratio": 0.20617601142325478,
+            "total_consumption": 6500.0,
+            "price_impact": 0.028400761550317736,
+            "price_elasticity_effect": -0.025560685395285963,
+            "substitution_effect": 0.008520228465095321,
+            "random_variation": 0.021142444524378315
+          }
+        }
+      },
+      "aggregate_metrics": {
+        "trade_balance": -849.2226641876478,
+        "trade_openness": 235.21779474405352,
+        "export_to_gdp": 116.48681586081759,
+        "import_to_gdp": 118.73097888323593
+      }
+    },
+    "2026": {
+      "global_market": {
+        "year_index": 1,
+        "simulation_year": 2026,
+        "global_scenario": "baseline",
+        "key_markets": {
+          "year_index": 1,
+          "simulation_year": 2026,
+          "gdp_growth": {},
+          "market_demand": {
+            "usa": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.03943618289568461,
+              "characteristics": {
+                "price_sensitivity": 0.6,
+                "quality_sensitivity": 0.72,
+                "lead_time_sensitivity": 0.8,
+                "compliance_sensitivity": 0.92,
+                "e_commerce_penetration": 0.74,
+                "ethical_consumption_premium": 0.62
+              }
+            },
+            "eu": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.033999999999999996,
+              "characteristics": {
+                "price_sensitivity": 0.5,
+                "quality_sensitivity": 0.8200000000000001,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.92,
+                "e_commerce_penetration": 0.74,
+                "ethical_consumption_premium": 0.8200000000000001
+              }
+            },
+            "china": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.046,
+              "characteristics": {
+                "price_sensitivity": 0.8,
+                "quality_sensitivity": 0.62,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.4,
+                "e_commerce_penetration": 0.8400000000000001,
+                "ethical_consumption_premium": 0.34
+              }
+            },
+            "india": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.046,
+              "characteristics": {
+                "price_sensitivity": 0.9,
+                "quality_sensitivity": 0.52,
+                "lead_time_sensitivity": 0.6,
+                "compliance_sensitivity": 0.3,
+                "e_commerce_penetration": 0.54,
+                "ethical_consumption_premium": 0.24
+              }
+            },
+            "japan": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.030999999999999996,
+              "characteristics": {
+                "price_sensitivity": 0.4,
+                "quality_sensitivity": 0.92,
+                "lead_time_sensitivity": 0.8,
+                "compliance_sensitivity": 0.8200000000000001,
+                "e_commerce_penetration": 0.64,
+                "ethical_consumption_premium": 0.72
+              }
+            },
+            "asean": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.036,
+              "characteristics": {
+                "price_sensitivity": 0.7,
+                "quality_sensitivity": 0.62,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.52,
+                "e_commerce_penetration": 0.64,
+                "ethical_consumption_premium": 0.44000000000000006
+              }
+            },
+            "other": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.036,
+              "characteristics": {
+                "price_sensitivity": 0.7,
+                "quality_sensitivity": 0.62,
+                "lead_time_sensitivity": 0.6,
+                "compliance_sensitivity": 0.52,
+                "e_commerce_penetration": 0.54,
+                "ethical_consumption_premium": 0.44000000000000006
+              }
+            }
+          },
+          "weighted_growth": 0.036109045723921145,
+          "market_weights": {
+            "usa": 0.25,
+            "eu": 0.55,
+            "china": 0.03,
+            "india": 0.02,
+            "japan": 0.03,
+            "asean": 0.04,
+            "other": 0.08
+          }
+        },
+        "competitors": {
+          "year_index": 1,
+          "simulation_year": 2026,
+          "effective_growth": {},
+          "competitive_position": {
+            "vietnam": {
+              "competitiveness_score": 1.215794306657166,
+              "factors": {
+                "wage_level": 1.27308,
+                "productivity": 1.4710902499999998,
+                "quality": 1.3645613968686379,
+                "lead_time": 1.2,
+                "infrastructure": 1.5301500000000001,
+                "political_stability": 1.4
+              }
+            },
+            "india": {
+              "competitiveness_score": 1.081716315339866,
+              "factors": {
+                "wage_level": 1.1669900000000002,
+                "productivity": 1.355319303,
+                "quality": 1.2568492157896647,
+                "lead_time": 0.9,
+                "infrastructure": 1.1221100000000002,
+                "political_stability": 1.0
+              }
+            },
+            "cambodia": {
+              "competitiveness_score": 0.8912281402284058,
+              "factors": {
+                "wage_level": 1.0609,
+                "productivity": 0.932911488,
+                "quality": 0.9349753494413975,
+                "lead_time": 0.8,
+                "infrastructure": 0.8487200000000001,
+                "political_stability": 0.7
+              }
+            },
+            "ethiopia": {
+              "competitiveness_score": 0.9234414583826813,
+              "factors": {
+                "wage_level": 0.63654,
+                "productivity": 0.7212640749999999,
+                "quality": 0.72422844407902,
+                "lead_time": 0.6,
+                "infrastructure": 0.53045,
+                "political_stability": 0.5
+              }
+            },
+            "myanmar": {
+              "competitiveness_score": 0.8065176497797901,
+              "factors": {
+                "wage_level": 0.8487200000000001,
+                "productivity": 0.722707216,
+                "quality": 0.7242437032731615,
+                "lead_time": 0.7,
+                "infrastructure": 0.63654,
+                "political_stability": 0.3
+              }
+            }
+          },
+          "weighted_growth": 0
+        },
+        "supply_chain": {
+          "year_index": 1,
+          "simulation_year": 2026,
+          "china_plus_one": 0.72,
+          "nearshoring_trend": 0.53,
+          "resilience_premium": 0.21000000000000002,
+          "lead_time_requirements": {
+            "fast_fashion": 28.811999999999998,
+            "seasonal_fashion": 57.623999999999995,
+            "basics": 88.20899999999999,
+            "technical_products": 73.5075
+          },
+          "inventory_patterns": {
+            "just_in_time": 0.42000000000000004,
+            "buffer_stock": 0.39,
+            "strategic_reserves": 0.19
+          },
+          "china_plus_one_benefit": 0.504,
+          "nearshoring_impact": 0.318,
+          "resilience_benefit": 0.08400000000000002,
+          "lead_time_impact": -0.10446701121286311,
+          "inventory_impact": -0.088,
+          "net_impact": 0.07753298878713691
+        },
+        "market_opportunity": 0.021665427434352687,
+        "supply_chain_opportunity": 0.186,
+        "sector_demand": {}
+      },
+      "geopolitical": {
+        "year_index": 1,
+        "simulation_year": 2026,
+        "regional_integration": {
+          "year_index": 1,
+          "simulation_year": 2026,
+          "bbin_implementation": 0.33,
+          "bay_of_bengal_cooperation": 0.42000000000000004,
+          "saarc_revival_probability": 0.31959959952728234,
+          "saarc_revival_occurred": false,
+          "bilateral_relations": {
+            "india": {
+              "political_level": 0.4098695543466081,
+              "economic_level": 0.604934777173304,
+              "security_level": 0.3098695543466081,
+              "relationship_score": 0.4678956434772865
+            },
+            "china": {
+              "political_level": 0.6088924624970705,
+              "economic_level": 0.7544462312485353,
+              "security_level": 0.5088924624970705,
+              "relationship_score": 0.6471139699976565
+            },
+            "myanmar": {
+              "political_level": 0.47550786637833753,
+              "economic_level": 0.5377539331891688,
+              "security_level": 0.37550786637833744,
+              "relationship_score": 0.48040629310267
+            }
+          },
+          "rohingya_crisis_severity": 0.6599999999999999,
+          "trade_facilitation_score": 0.28800000000000003,
+          "stability_score": 0.46787274566325127,
+          "market_access": {
+            "india": 0.4949608663039824,
+            "china": 0.6541123618739747
+          }
+        },
+        "global_power_shifts": {
+          "year_index": 1,
+          "simulation_year": 2026,
+          "us_china_tension": 0.6799999999999999,
+          "india_china_tension": 0.58,
+          "power_alignment": {
+            "us": 0.6305106169001671,
+            "china": 0.6935783105833384,
+            "india": 0.6018189346203209,
+            "eu": 0.604666953354695,
+            "russia": 0.39735691477182206,
+            "japan": 0.510196307471042
+          },
+          "development_finance": {
+            "western": {
+              "volume": 1042.5376373484844,
+              "conditionality": 0.6950000000000001
+            },
+            "asian": {
+              "volume": 1668.6149092385149,
+              "conditionality": 0.3975000000000001
+            },
+            "availability": 1.0844610186347996
+          },
+          "indo_pacific": {
+            "engagement_level": 0.410500014255766,
+            "strategic_importance": 0.62
+          },
+          "favorable_relations_score": 0.620565653388744,
+          "tension_level": 0.614
+        },
+        "trade_war_impacts": {
+          "year_index": 1,
+          "simulation_year": 2026,
+          "trade_war_probability": 0.27999999999999997,
+          "active_trade_wars": {
+            "us_china": {
+              "started_year": 2025,
+              "intensity": 0.9,
+              "duration_years": 3
+            },
+            "china_vietnam": {
+              "started_year": 2025,
+              "intensity": 0.3854838357273374,
+              "duration_years": 3
+            },
+            "china_india": {
+              "started_year": 2026,
+              "intensity": 0.6878306189196549,
+              "duration_years": 2
+            }
+          },
+          "new_trade_wars": {
+            "china_india": {
+              "started_year": 2026,
+              "intensity": 0.554635757211759,
+              "duration_years": 2
+            }
+          },
+          "ended_trade_wars": [],
+          "order_diversion_potential": {
+            "rmg": 0.6063853605619333,
+            "footwear": 0.5245495845127321,
+            "light_manufacturing": 0.4270639923495788,
+            "electronics": 0.31215455220578986,
+            "other": 0.22757024063712
+          },
+          "market_diversification": 0.41000000000000003,
+          "secondary_sanction_exposure": 0.2937,
+          "tariff_escalation": 0.19272242616277893,
+          "order_diversion_opportunities": {
+            "rmg": 0.5843202893854363,
+            "footwear": 0.5054623428498569,
+            "light_manufacturing": 0.41152404366186646,
+            "electronics": 0.3007959131942783,
+            "other": 0.21928944449016596
+          },
+          "sanction_risk": 0.16980772969202454,
+          "opportunity_score": 0.23205256579381717,
+          "vulnerability_score": 0.4216544852325558
+        },
+        "bri_impact": 0.05949999999999999,
+        "trade_benefit": 0.35373020917538667,
+        "trade_risk": 0.5317345218707914,
+        "net_geopolitical_impact": -0.17800431269540473
+      },
+      "investment": {
+        "fdi_inflow": 3.346046654106531,
+        "domestic_investment": 143.84846995396583,
+        "sez_exports": 4.526376247374954,
+        "active_sezs": 8,
+        "investment_policy_index": 0.5953472436676778,
+        "fdi_sectors": {
+          "manufacturing": 0.4391098619762859,
+          "services": 0.3029398558864956,
+          "energy": 0.15140722147480354,
+          "infrastructure": 0.10654306066241509
+        },
+        "domestic_sectors": {
+          "manufacturing": 0.31147103281325256,
+          "services": 0.35504960903003524,
+          "agriculture": 0.13440500321566087,
+          "infrastructure": 0.19907435494105144
+        },
+        "gdp": 408.6299976195727
+      },
+      "trade_policy": {
+        "year_index": 1,
+        "simulation_year": 2026,
+        "tariff_rates": {},
+        "market_access_score": 0.7,
+        "domestic_policy_score": 0.5,
+        "fta_coverage": 0.0,
+        "economic_zones_operational": 0,
+        "ldc_benefits_active": true
+      },
+      "logistics": {
+        "year_index": 1,
+        "simulation_year": 2026,
+        "overall_performance": 0.2742721369853333,
+        "port_performance": 0.0,
+        "transport_performance": 0.5376023999999999,
+        "facilitation_performance": 0.34444518794133333,
+        "logistics_cost": 0.17257278630146666,
+        "time_delay": 11.128639315073332,
+        "reliability": 0.6548544273970667,
+        "port_results": {},
+        "transport_result": {
+          "year_index": 1,
+          "simulation_year": 2026,
+          "modal_shares": {
+            "road": 0.591,
+            "rail": 0.156,
+            "waterway": 0.253
+          },
+          "road_quality": 0.612,
+          "road_capacity": 1.0404,
+          "rail_share": 0.156,
+          "rail_quality": 0.518,
+          "waterway_share": 0.253,
+          "waterway_quality": 0.612,
+          "road_performance": 0.5508,
+          "rail_performance": 0.4662,
+          "waterway_performance": 0.5508,
+          "performance_score": 0.5376023999999999,
+          "transport_cost": 1.0,
+          "disruption_impact": {
+            "road": 0.09999999999999999,
+            "rail": 0.1,
+            "waterway": 0.1
+          }
+        },
+        "facilitation_result": {
+          "year_index": 1,
+          "simulation_year": 2026,
+          "customs_level": 0.524,
+          "single_window_adoption": 0.06,
+          "paperless_trade_level": 0.336,
+          "documentary_compliance": {
+            "time_days": 2.96141934,
+            "cost_usd": 198.49062439999997
+          },
+          "border_compliance": {
+            "time_days": 4.9473367999999995,
+            "cost_usd": 397.423978
+          },
+          "corruption_incidence": 0.37901848192000004,
+          "performance_score": 0.34444518794133333
+        },
+        "container_volume": 1000.0,
+        "aggregate_port_capacity": 0,
+        "capacity_utilization": 1
+      },
+      "exchange_rate": {
+        "year_index": 1,
+        "exchange_rate": 118.97610728202179,
+        "real_effective_rate": 1.0404006473863285,
+        "depreciation_rate": 0.04401766448946012,
+        "potential_depreciation": 0.04401766448946012,
+        "foreign_reserves": 59000,
+        "reserve_months": 11.8,
+        "trade_balance": -10000,
+        "current_account_balance": 8500,
+        "capital_account_balance": 3500,
+        "overall_balance": 12000,
+        "intervention_cost": 0,
+        "export_impact": 0.030812365142622086,
+        "import_impact": -0.026410598693676072,
+        "remittance_impact": 0.01760706579578405,
+        "market_volatility": 0.05017664489460121,
+        "exchange_rate_pressure": 0.09000000000000001
+      },
+      "compliance": {
+        "year_index": 1,
+        "simulation_year": 2026,
+        "labor_standards": {
+          "year_index": 1,
+          "simulation_year": 2026,
+          "minimum_wage": 87.99916799999998,
+          "minimum_wage_growth": 0.08320000000000001,
+          "living_wage": 162.24,
+          "living_wage_gap": 0.45759881656804746,
+          "standards_compliance": {
+            "wage_compliance": 0.7855871081762603,
+            "safety_compliance": 0.8329317113517398,
+            "working_hours_compliance": 0.635581736054247,
+            "child_labor_compliance": 0.925344918290618,
+            "union_rights_compliance": 0.5333132561888664
+          },
+          "average_compliance": 0.7425517460123463,
+          "compliance_cost": 0.06387655238037039,
+          "market_premium": 0.04285103492024692,
+          "unrest_risk": 0.31478018212583364,
+          "unrest_occurs": false
+        },
+        "environmental_compliance": {
+          "year_index": 1,
+          "simulation_year": 2026,
+          "carbon_tax_implemented": false,
+          "carbon_tax_rate": 0,
+          "green_certification_adoption": 0.41600000000000004,
+          "compliance_areas": {
+            "water_treatment": 0.6547068344558526,
+            "air_emissions": 0.5245000542964109,
+            "chemical_management": 0.7392129093978144,
+            "waste_management": 0.6329789404474151,
+            "energy_efficiency": 0.42303770151463604
+          },
+          "average_compliance": 0.5948872880224257,
+          "carbon_intensity": 0.79907096700152,
+          "compliance_cost": 0.016057745760448515,
+          "market_premium": 0.03329263304847094
+        },
+        "product_standards": {
+          "year_index": 1,
+          "simulation_year": 2026,
+          "testing_capacity": 0.62220416,
+          "compliance_capability": 0.703839624,
+          "sector_standards": {
+            "rmg": {
+              "requirements": 0.652959744,
+              "compliance": 0.82279916256,
+              "gap": -0.16983941855999996
+            },
+            "pharma": {
+              "requirements": 0.8887328000000001,
+              "compliance": 0.90985330976,
+              "gap": -0.021120509759999906
+            },
+            "food": {
+              "requirements": 0.7936593279999999,
+              "compliance": 0.69924358336,
+              "gap": 0.09441574463999991
+            },
+            "electronics": {
+              "requirements": 0.833187,
+              "compliance": 0.6397723497600001,
+              "gap": 0.19341465023999993
+            },
+            "other": {
+              "requirements": 0.652959744,
+              "compliance": 0.71254916256,
+              "gap": -0.059589418559999996
+            }
+          },
+          "certifications": {
+            "iso9001": 0.4493777760269305,
+            "iso14001": 0.3541783931406598,
+            "halal": 0.5445771589132011,
+            "gmp": 0.6397765417994717,
+            "other": 0.3541783931406598
+          },
+          "average_requirements": 0.7642997232,
+          "average_compliance": 0.7568435136,
+          "average_gap": 0.00745620959999993,
+          "compliance_cost": 0.020193857278041842,
+          "market_premium": 0.03524414795892554
+        },
+        "total_compliance_cost": 0.036426101863695264,
+        "total_market_premium": 0.03674560808314011,
+        "net_compliance_impact": 0.00031950621944484836
+      },
+      "structural_transformation": {
+        "export_diversity_hhi": 0.690419243291888,
+        "export_sectors": {
+          "rmg": 45.5253907535017,
+          "leather": 2.1431882228828996,
+          "jute": 1.41515913027403,
+          "frozen_food": 0.7843791540891766,
+          "pharma": 0.20338173144624952,
+          "it_services": 1.6558021412613377,
+          "light_engineering": 0.635962423227254,
+          "agro_processing": 0.9778447819398925,
+          "home_textiles": 1.2443949773569212,
+          "shipbuilding": 0.37613831191137254
+        },
+        "value_chain_position": {
+          "rmg": 0.2829153150826799,
+          "leather": 0.3412337450036546,
+          "jute": 0.438895070205583,
+          "frozen_food": 0.38577542886903715,
+          "pharma": 0.4903337086946531,
+          "it_services": 0.6379673168051663,
+          "light_engineering": 0.43596006842782886,
+          "agro_processing": 0.39746041928479303,
+          "home_textiles": 0.3445443152395643,
+          "shipbuilding": 0.5356831799460681
+        },
+        "capability_index": 0.38310038360792464,
+        "industrial_policy_effectiveness": 0.5788730994808325
+      },
+      "digital_trade": {
+        "ecommerce_adoption_rate": 0.2779243501958951,
+        "digital_services_exports": 1.8816363009679713,
+        "digital_infrastructure_index": 0.48382323033223984,
+        "digital_trade_barriers": 0.5922263242996839
+      },
+      "services_trade": {
+        "remittance_inflow": 20.55479852953532,
+        "overseas_workers": 8.67504035890006,
+        "tourism_earnings": 0.5701700205662606,
+        "tourist_arrivals": 0.8692604530757042,
+        "business_process_exports": 1.5981858981993755,
+        "professional_services_exports": 0.7087847966782097,
+        "service_fdi_inflow": 1.4708170867771735
+      },
+      "export": {
+        "total_exports": 47591.21263842689,
+        "sector_details": {
+          "rmg": {
+            "sector_name": "rmg",
+            "year_index": 1,
+            "export_volume": 41114.596249262635,
+            "growth_rate": 0.07383012794213625,
+            "global_market_share": 0.06129993393608932,
+            "competitiveness": 0.69,
+            "value_chain_position": "low_to_mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.016169872057863754
+          },
+          "pharma": {
+            "sector_name": "pharma",
+            "year_index": 1,
+            "export_volume": 1923.15213479955,
+            "growth_rate": 0.11996485912830927,
+            "global_market_share": 0.010413598464156291,
+            "competitiveness": 0.6699999999999999,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.010035140871690731
+          },
+          "it_services": {
+            "sector_name": "it_services",
+            "year_index": 1,
+            "export_volume": 1645.0509859311587,
+            "growth_rate": 0.1783080423540415,
+            "global_market_share": 0.005285693078256266,
+            "competitiveness": 0.73,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.018308042354041484
+          },
+          "leather": {
+            "sector_name": "leather",
+            "year_index": 1,
+            "export_volume": 1236.8156749649597,
+            "growth_rate": 0.1165750221931937,
+            "global_market_share": 0.015496821623670188,
+            "competitiveness": 0.63,
+            "value_chain_position": "low_to_mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.006575022193193689
+          },
+          "jute": {
+            "sector_name": "jute",
+            "year_index": 1,
+            "export_volume": 884.8395923485585,
+            "growth_rate": 0.04940479592465924,
+            "global_market_share": 0.4034780623492289,
+            "competitiveness": 0.73,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.010595204075340776
+          },
+          "agro_products": {
+            "sector_name": "agro_products",
+            "year_index": 1,
+            "export_volume": 786.7580011200307,
+            "growth_rate": 0.08026534866226713,
+            "global_market_share": 0.01012159951590163,
+            "competitiveness": 0.63,
+            "value_chain_position": "low",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.010265348662267122
+          }
+        }
+      },
+      "import": {
+        "total_imports": 45692.678162790704,
+        "category_details": {
+          "industrial_inputs": {
+            "category_name": "industrial_inputs",
+            "year_index": 1,
+            "import_volume": 25278.336122179095,
+            "growth_rate": 0.01562101261274318,
+            "domestic_production_ratio": 0.3125398032571328,
+            "total_consumption": 37315.53994992808,
+            "price_impact": 0.02358940130632393,
+            "price_elasticity_effect": -0.016512580914426752,
+            "substitution_effect": 0.009435760522529573,
+            "random_variation": 0.0019415509869608078
+          },
+          "consumer_goods": {
+            "category_name": "consumer_goods",
+            "year_index": 1,
+            "import_volume": 15301.068237769508,
+            "growth_rate": 0.02652765749273689,
+            "domestic_production_ratio": 0.5130597048856993,
+            "total_consumption": 31418.61754572224,
+            "price_impact": 0.02358940130632393,
+            "price_elasticity_effect": -0.018871521045059146,
+            "substitution_effect": 0.014153640783794358,
+            "random_variation": 0.019372899810657786
+          },
+          "energy": {
+            "category_name": "energy",
+            "year_index": 1,
+            "import_volume": 5113.273802842104,
+            "growth_rate": -0.00408941703680199,
+            "domestic_production_ratio": 0.21227985244284964,
+            "total_consumption": 6726.479483791355,
+            "price_impact": 0.02358940130632393,
+            "price_elasticity_effect": -0.021230461175691537,
+            "substitution_effect": 0.007076820391897179,
+            "random_variation": -0.014041061877547048
+          }
+        }
+      },
+      "aggregate_metrics": {
+        "trade_balance": 1898.5344756361883,
+        "trade_openness": 228.28449047948567,
+        "export_to_gdp": 116.46529358016802,
+        "import_to_gdp": 111.81919689931766
+      }
+    },
+    "2027": {
+      "global_market": {
+        "year_index": 2,
+        "simulation_year": 2027,
+        "global_scenario": "baseline",
+        "key_markets": {
+          "year_index": 2,
+          "simulation_year": 2027,
+          "gdp_growth": {},
+          "market_demand": {
+            "usa": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.03272337853402232,
+              "characteristics": {
+                "price_sensitivity": 0.6,
+                "quality_sensitivity": 0.73,
+                "lead_time_sensitivity": 0.8,
+                "compliance_sensitivity": 0.93,
+                "e_commerce_penetration": 0.76,
+                "ethical_consumption_premium": 0.63
+              }
+            },
+            "eu": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.033999999999999996,
+              "characteristics": {
+                "price_sensitivity": 0.5,
+                "quality_sensitivity": 0.8300000000000001,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.93,
+                "e_commerce_penetration": 0.76,
+                "ethical_consumption_premium": 0.8300000000000001
+              }
+            },
+            "china": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.046,
+              "characteristics": {
+                "price_sensitivity": 0.8,
+                "quality_sensitivity": 0.63,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.4,
+                "e_commerce_penetration": 0.8600000000000001,
+                "ethical_consumption_premium": 0.36000000000000004
+              }
+            },
+            "india": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.046,
+              "characteristics": {
+                "price_sensitivity": 0.9,
+                "quality_sensitivity": 0.53,
+                "lead_time_sensitivity": 0.6,
+                "compliance_sensitivity": 0.3,
+                "e_commerce_penetration": 0.56,
+                "ethical_consumption_premium": 0.26
+              }
+            },
+            "japan": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.030999999999999996,
+              "characteristics": {
+                "price_sensitivity": 0.4,
+                "quality_sensitivity": 0.93,
+                "lead_time_sensitivity": 0.8,
+                "compliance_sensitivity": 0.8300000000000001,
+                "e_commerce_penetration": 0.66,
+                "ethical_consumption_premium": 0.73
+              }
+            },
+            "asean": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.036,
+              "characteristics": {
+                "price_sensitivity": 0.7,
+                "quality_sensitivity": 0.63,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.53,
+                "e_commerce_penetration": 0.66,
+                "ethical_consumption_premium": 0.4600000000000001
+              }
+            },
+            "other": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.036,
+              "characteristics": {
+                "price_sensitivity": 0.7,
+                "quality_sensitivity": 0.63,
+                "lead_time_sensitivity": 0.6,
+                "compliance_sensitivity": 0.53,
+                "e_commerce_penetration": 0.56,
+                "ethical_consumption_premium": 0.4600000000000001
+              }
+            }
+          },
+          "weighted_growth": 0.034430844633505577,
+          "market_weights": {
+            "usa": 0.25,
+            "eu": 0.55,
+            "china": 0.03,
+            "india": 0.02,
+            "japan": 0.03,
+            "asean": 0.04,
+            "other": 0.08
+          }
+        },
+        "competitors": {
+          "year_index": 2,
+          "simulation_year": 2027,
+          "effective_growth": {},
+          "competitive_position": {
+            "vietnam": {
+              "competitiveness_score": 1.2247505410370312,
+              "factors": {
+                "wage_level": 1.3112724,
+                "productivity": 1.508311039960375,
+                "quality": 1.3987888410333313,
+                "lead_time": 1.2,
+                "infrastructure": 1.5454515000000002,
+                "political_stability": 1.4
+              }
+            },
+            "india": {
+              "competitiveness_score": 1.0870960358041921,
+              "factors": {
+                "wage_level": 1.2019997000000002,
+                "productivity": 1.3840806694608931,
+                "quality": 1.286813514987577,
+                "lead_time": 0.9,
+                "infrastructure": 1.1333311000000001,
+                "political_stability": 1.0
+              }
+            },
+            "cambodia": {
+              "competitiveness_score": 0.8926341096267478,
+              "factors": {
+                "wage_level": 1.092727,
+                "productivity": 0.9501584092609536,
+                "quality": 0.953208849843046,
+                "lead_time": 0.8,
+                "infrastructure": 0.8741816000000001,
+                "political_stability": 0.7
+              }
+            },
+            "ethiopia": {
+              "competitiveness_score": 0.9160225664213033,
+              "factors": {
+                "wage_level": 0.6556362,
+                "productivity": 0.7323026610358374,
+                "quality": 0.7367742726877793,
+                "lead_time": 0.6,
+                "infrastructure": 0.5463635,
+                "political_stability": 0.5
+              }
+            },
+            "myanmar": {
+              "competitiveness_score": 0.8030098561834936,
+              "factors": {
+                "wage_level": 0.8741816000000001,
+                "productivity": 0.7345346086727264,
+                "quality": 0.7368059609575675,
+                "lead_time": 0.7,
+                "infrastructure": 0.6556362,
+                "political_stability": 0.3
+              }
+            }
+          },
+          "weighted_growth": 0
+        },
+        "supply_chain": {
+          "year_index": 2,
+          "simulation_year": 2027,
+          "china_plus_one": 0.73,
+          "nearshoring_trend": 0.545,
+          "resilience_premium": 0.21500000000000002,
+          "lead_time_requirements": {
+            "fast_fashion": 28.235759999999996,
+            "seasonal_fashion": 56.47151999999999,
+            "basics": 87.32690999999998,
+            "technical_products": 72.772425
+          },
+          "inventory_patterns": {
+            "just_in_time": 0.43000000000000005,
+            "buffer_stock": 0.385,
+            "strategic_reserves": 0.185
+          },
+          "china_plus_one_benefit": 0.511,
+          "nearshoring_impact": 0.327,
+          "resilience_benefit": 0.08600000000000002,
+          "lead_time_impact": -0.112728540852542,
+          "inventory_impact": -0.092,
+          "net_impact": 0.06527145914745802
+        },
+        "market_opportunity": 0.020658506780103347,
+        "supply_chain_opportunity": 0.184,
+        "sector_demand": {}
+      },
+      "geopolitical": {
+        "year_index": 2,
+        "simulation_year": 2027,
+        "regional_integration": {
+          "year_index": 2,
+          "simulation_year": 2027,
+          "bbin_implementation": 0.34500000000000003,
+          "bay_of_bengal_cooperation": 0.43000000000000005,
+          "saarc_revival_probability": 0.3205577745453559,
+          "saarc_revival_occurred": false,
+          "bilateral_relations": {
+            "india": {
+              "political_level": 0.4394815820530657,
+              "economic_level": 0.6197407910265328,
+              "security_level": 0.3394815820530657,
+              "relationship_score": 0.4915852656424526
+            },
+            "china": {
+              "political_level": 0.6349979897150595,
+              "economic_level": 0.7674989948575297,
+              "security_level": 0.5349979897150595,
+              "relationship_score": 0.6679983917720477
+            },
+            "myanmar": {
+              "political_level": 0.4765305577068297,
+              "economic_level": 0.5382652788534148,
+              "security_level": 0.37653055770682964,
+              "relationship_score": 0.4812244461654638
+            }
+          },
+          "rohingya_crisis_severity": 0.6399999999999999,
+          "trade_facilitation_score": 0.29700000000000004,
+          "stability_score": 0.48532014728023815,
+          "market_access": {
+            "india": 0.5098444746159196,
+            "china": 0.6662492964002708
+          }
+        },
+        "global_power_shifts": {
+          "year_index": 2,
+          "simulation_year": 2027,
+          "us_china_tension": 0.6699999999999999,
+          "india_china_tension": 0.57,
+          "power_alignment": {
+            "us": 0.6187812602314098,
+            "china": 0.6310203231489478,
+            "india": 0.60444816416705,
+            "eu": 0.5978126630241596,
+            "russia": 0.3813113693873897,
+            "japan": 0.5069705932377219
+          },
+          "development_finance": {
+            "western": {
+              "volume": 1064.6267294394834,
+              "conditionality": 0.6925000000000001
+            },
+            "asian": {
+              "volume": 1757.5112163159301,
+              "conditionality": 0.3962500000000001
+            },
+            "availability": 1.1288551783021654
+          },
+          "indo_pacific": {
+            "engagement_level": 0.41664819506446815,
+            "strategic_importance": 0.63
+          },
+          "favorable_relations_score": 0.5985921626747528,
+          "tension_level": 0.606
+        },
+        "trade_war_impacts": {
+          "year_index": 2,
+          "simulation_year": 2027,
+          "trade_war_probability": 0.26999999999999996,
+          "active_trade_wars": {
+            "us_china": {
+              "started_year": 2025,
+              "intensity": 0.9,
+              "duration_years": 3
+            },
+            "china_vietnam": {
+              "started_year": 2025,
+              "intensity": 0.3854838357273374,
+              "duration_years": 3
+            },
+            "china_india": {
+              "started_year": 2026,
+              "intensity": 0.6878306189196549,
+              "duration_years": 2
+            }
+          },
+          "new_trade_wars": {},
+          "ended_trade_wars": [],
+          "order_diversion_potential": {
+            "rmg": 0.6258210022163525,
+            "footwear": 0.5437985304115743,
+            "light_manufacturing": 0.4320996382660861,
+            "electronics": 0.3220995223236376,
+            "other": 0.2335878068334554
+          },
+          "market_diversification": 0.41500000000000004,
+          "secondary_sanction_exposure": 0.2904,
+          "tariff_escalation": 0.19733144546469925,
+          "order_diversion_opportunities": {
+            "rmg": 0.6174708148475979,
+            "footwear": 0.5365427502384759,
+            "light_manufacturing": 0.42633423101910217,
+            "electronics": 0.3178018216180628,
+            "other": 0.2304710978268735
+          },
+          "sanction_risk": 0.17191515528884596,
+          "opportunity_score": 0.24643235359036192,
+          "vulnerability_score": 0.4190862890929398
+        },
+        "bri_impact": 0.05949999999999999,
+        "trade_benefit": 0.35361411952049826,
+        "trade_risk": 0.5225298425438105,
+        "net_geopolitical_impact": -0.16891572302331226
+      },
+      "investment": {
+        "fdi_inflow": 4.193849008317192,
+        "domestic_investment": 161.55279940042115,
+        "sez_exports": 4.981242164049886,
+        "active_sezs": 8,
+        "investment_policy_index": 0.5961505867127432,
+        "fdi_sectors": {
+          "manufacturing": 0.43800466105059427,
+          "services": 0.30271942027192944,
+          "energy": 0.15072107325822565,
+          "infrastructure": 0.10855484541925063
+        },
+        "domestic_sectors": {
+          "manufacturing": 0.31303588940203386,
+          "services": 0.3590905810678337,
+          "agriculture": 0.12846876868819818,
+          "infrastructure": 0.19940476084193418
+        },
+        "gdp": 450.8080570834117
+      },
+      "trade_policy": {
+        "year_index": 2,
+        "simulation_year": 2027,
+        "tariff_rates": {},
+        "market_access_score": 0.7,
+        "domestic_policy_score": 0.5,
+        "fta_coverage": 0.0,
+        "economic_zones_operational": 0,
+        "ldc_benefits_active": true
+      },
+      "logistics": {
+        "year_index": 2,
+        "simulation_year": 2027,
+        "overall_performance": 0.278948143146336,
+        "port_performance": 0.0,
+        "transport_performance": 0.5431779000000001,
+        "facilitation_performance": 0.3553435125853438,
+        "logistics_cost": 0.1721051856853664,
+        "time_delay": 11.105259284268321,
+        "reliability": 0.6557896286292672,
+        "port_results": {},
+        "transport_result": {
+          "year_index": 2,
+          "simulation_year": 2027,
+          "modal_shares": {
+            "road": 0.5865,
+            "rail": 0.159,
+            "waterway": 0.2545
+          },
+          "road_quality": 0.618,
+          "road_capacity": 1.061208,
+          "rail_share": 0.159,
+          "rail_quality": 0.527,
+          "waterway_share": 0.2545,
+          "waterway_quality": 0.618,
+          "road_performance": 0.5562,
+          "rail_performance": 0.47430000000000005,
+          "waterway_performance": 0.5562,
+          "performance_score": 0.5431779000000001,
+          "transport_cost": 1.0,
+          "disruption_impact": {
+            "road": 0.09999999999999999,
+            "rail": 0.1,
+            "waterway": 0.1
+          }
+        },
+        "facilitation_result": {
+          "year_index": 2,
+          "simulation_year": 2027,
+          "customs_level": 0.536,
+          "single_window_adoption": 0.12,
+          "paperless_trade_level": 0.35400000000000004,
+          "documentary_compliance": {
+            "time_days": 2.93032443693,
+            "cost_usd": 197.09722021671197
+          },
+          "border_compliance": {
+            "time_days": 4.910528614207999,
+            "cost_usd": 395.3375021155
+          },
+          "corruption_incidence": 0.368330160729856,
+          "performance_score": 0.3553435125853438
+        },
+        "container_volume": 1000.0,
+        "aggregate_port_capacity": 0,
+        "capacity_utilization": 1
+      },
+      "exchange_rate": {
+        "year_index": 2,
+        "exchange_rate": 123.65200524561845,
+        "real_effective_rate": 1.060481577433743,
+        "depreciation_rate": 0.039301151049705135,
+        "potential_depreciation": 0.039301151049705135,
+        "foreign_reserves": 71000,
+        "reserve_months": 14.2,
+        "trade_balance": -10000,
+        "current_account_balance": 8500,
+        "capital_account_balance": 3500,
+        "overall_balance": 12000,
+        "intervention_cost": 0,
+        "export_impact": 0.027510805734793593,
+        "import_impact": -0.02358069062982308,
+        "remittance_impact": 0.015720460419882055,
+        "market_volatility": 0.003011510497051322,
+        "exchange_rate_pressure": 0.09000000000000001
+      },
+      "compliance": {
+        "year_index": 2,
+        "simulation_year": 2027,
+        "labor_standards": {
+          "year_index": 2,
+          "simulation_year": 2027,
+          "minimum_wage": 95.32069877759997,
+          "minimum_wage_growth": 0.08320000000000001,
+          "living_wage": 168.7296,
+          "living_wage_gap": 0.43506830587164336,
+          "standards_compliance": {
+            "wage_compliance": 0.8302573420162049,
+            "safety_compliance": 0.8502647284666249,
+            "working_hours_compliance": 0.661110110832688,
+            "child_labor_compliance": 0.9427296094417704,
+            "union_rights_compliance": 0.5458268070855548
+          },
+          "average_compliance": 0.7660377195685686,
+          "compliance_cost": 0.06458113158705706,
+          "market_premium": 0.04332075439137137,
+          "unrest_risk": 0.32115717104758085,
+          "unrest_occurs": false
+        },
+        "environmental_compliance": {
+          "year_index": 2,
+          "simulation_year": 2027,
+          "carbon_tax_implemented": false,
+          "carbon_tax_rate": 0,
+          "green_certification_adoption": 0.524,
+          "compliance_areas": {
+            "water_treatment": 0.6798686139949907,
+            "air_emissions": 0.532183627815614,
+            "chemical_management": 0.7478497805160733,
+            "waste_management": 0.6584816227804912,
+            "energy_efficiency": 0.43551993296144886
+          },
+          "average_compliance": 0.6107807156137236,
+          "carbon_intensity": 0.7980387320641349,
+          "compliance_cost": 0.01745561431227447,
+          "market_premium": 0.0390263950278882
+        },
+        "product_standards": {
+          "year_index": 2,
+          "simulation_year": 2027,
+          "testing_capacity": 0.679520466944,
+          "compliance_capability": 0.7528344862128,
+          "sector_standards": {
+            "rmg": {
+              "requirements": 0.6811676049408,
+              "compliance": 0.892379733897792,
+              "gap": -0.21121212895699204
+            },
+            "pharma": {
+              "requirements": 0.9367243712000001,
+              "compliance": 0.95,
+              "gap": -0.013275628799999883
+            },
+            "food": {
+              "requirements": 0.8450884524543999,
+              "compliance": 0.7544503333621121,
+              "gap": 0.0906381190922878
+            },
+            "electronics": {
+              "requirements": 0.878179098,
+              "compliance": 0.6903510058048321,
+              "gap": 0.18782809219516794
+            },
+            "other": {
+              "requirements": 0.6811676049408,
+              "compliance": 0.776617233897792,
+              "gap": -0.09544962895699205
+            }
+          },
+          "certifications": {
+            "iso9001": 0.4738318787055662,
+            "iso14001": 0.38100997802416287,
+            "halal": 0.5666537793869695,
+            "gmp": 0.6594756800683728,
+            "other": 0.38100997802416287
+          },
+          "average_requirements": 0.8044654263072,
+          "average_compliance": 0.8127596613925057,
+          "average_gap": -0.00829423508530569,
+          "compliance_cost": 0.020764444062003295,
+          "market_premium": 0.037529158284245565
+        },
+        "total_compliance_cost": 0.037298470147106154,
+        "total_market_premium": 0.03986553181384036,
+        "net_compliance_impact": 0.002567061666734205
+      },
+      "structural_transformation": {
+        "export_diversity_hhi": 0.6960717731550128,
+        "export_sectors": {
+          "rmg": 52.16444741295444,
+          "leather": 2.460619212912072,
+          "jute": 1.5189881920930097,
+          "frozen_food": 0.8762338408386379,
+          "pharma": 0.23138531602794002,
+          "it_services": 1.8112147448692308,
+          "light_engineering": 0.7275026628404446,
+          "agro_processing": 1.0860177856899336,
+          "home_textiles": 1.412036073358073,
+          "shipbuilding": 0.4231818432658556
+        },
+        "value_chain_position": {
+          "rmg": 0.2954847802181948,
+          "leather": 0.35885034452766884,
+          "jute": 0.44932237925778407,
+          "frozen_food": 0.41077206861769844,
+          "pharma": 0.5147893549219863,
+          "it_services": 0.6586073991810154,
+          "light_engineering": 0.4525055132485687,
+          "agro_processing": 0.4103228668445166,
+          "home_textiles": 0.37013336036355204,
+          "shipbuilding": 0.559184621532911
+        },
+        "capability_index": 0.3948661623093123,
+        "industrial_policy_effectiveness": 0.6045817562423196
+      },
+      "digital_trade": {
+        "ecommerce_adoption_rate": 0.3552011539411909,
+        "digital_services_exports": 2.1564018912688225,
+        "digital_infrastructure_index": 0.5667114089706954,
+        "digital_trade_barriers": 0.5858067510746958
+      },
+      "services_trade": {
+        "remittance_inflow": 22.02277533434191,
+        "overseas_workers": 9.054695856672087,
+        "tourism_earnings": 0.6230151355470995,
+        "tourist_arrivals": 0.9079054795036714,
+        "business_process_exports": 1.8735753738675132,
+        "professional_services_exports": 0.8200242160516452,
+        "service_fdi_inflow": 1.7586831059252008
+      },
+      "export": {
+        "total_exports": 53258.69250194096,
+        "sector_details": {
+          "rmg": {
+            "sector_name": "rmg",
+            "year_index": 2,
+            "export_volume": 45952.974861427276,
+            "growth_rate": 0.11768031437865357,
+            "global_market_share": 0.062374893431870714,
+            "competitiveness": 0.695,
+            "value_chain_position": "low_to_mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.027680314378653564
+          },
+          "pharma": {
+            "sector_name": "pharma",
+            "year_index": 2,
+            "export_volume": 2227.2103840001173,
+            "growth_rate": 0.15810410611756376,
+            "global_market_share": 0.010680403408699886,
+            "competitiveness": 0.6749999999999999,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.028104106117563758
+          },
+          "it_services": {
+            "sector_name": "it_services",
+            "year_index": 2,
+            "export_volume": 1954.068080750528,
+            "growth_rate": 0.18784651506983807,
+            "global_market_share": 0.00545255872468257,
+            "competitiveness": 0.735,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.027846515069838058
+          },
+          "leather": {
+            "sector_name": "leather",
+            "year_index": 2,
+            "export_volume": 1351.0815918436733,
+            "growth_rate": 0.09238718362940462,
+            "global_market_share": 0.015690182234931793,
+            "competitiveness": 0.635,
+            "value_chain_position": "low_to_mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.017612816370595388
+          },
+          "jute": {
+            "sector_name": "jute",
+            "year_index": 2,
+            "export_volume": 939.2907617886568,
+            "growth_rate": 0.06153789897169144,
+            "global_market_share": 0.40602303242276166,
+            "competitiveness": 0.735,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.0015378989716914285
+          },
+          "agro_products": {
+            "sector_name": "agro_products",
+            "year_index": 2,
+            "export_volume": 834.0668221307133,
+            "growth_rate": 0.06013135035593348,
+            "global_market_share": 0.010182595008136846,
+            "competitiveness": 0.635,
+            "value_chain_position": "low",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.009868649644066533
+          }
+        }
+      },
+      "import": {
+        "total_imports": 47172.55545653518,
+        "category_details": {
+          "industrial_inputs": {
+            "category_name": "industrial_inputs",
+            "year_index": 2,
+            "import_volume": 26039.692083269198,
+            "growth_rate": 0.030118911205634813,
+            "domestic_production_ratio": 0.3188181894445364,
+            "total_consumption": 38241.44247423155,
+            "price_impact": 0.026419309370176922,
+            "price_elasticity_effect": -0.018493516559123846,
+            "substitution_effect": 0.01056772374807077,
+            "random_variation": 0.018463252166839056
+          },
+          "consumer_goods": {
+            "category_name": "consumer_goods",
+            "year_index": 2,
+            "import_volume": 15892.013702412665,
+            "growth_rate": 0.038621190067269495,
+            "domestic_production_ratio": 0.5196022841668047,
+            "total_consumption": 32679.79899577825,
+            "price_impact": 0.026419309370176922,
+            "price_elasticity_effect": -0.02113544749614154,
+            "substitution_effect": 0.015851585622106153,
+            "random_variation": 0.03413209907356924
+          },
+          "energy": {
+            "category_name": "energy",
+            "year_index": 2,
+            "import_volume": 5240.849670853315,
+            "growth_rate": 0.024949938714469155,
+            "domestic_production_ratio": 0.2184261420834023,
+            "total_consumption": 6750.880717532964,
+            "price_impact": 0.026419309370176922,
+            "price_elasticity_effect": -0.02377737843315923,
+            "substitution_effect": 0.007925792811053076,
+            "random_variation": 0.017471788312707584
+          }
+        }
+      },
+      "aggregate_metrics": {
+        "trade_balance": 6086.137045405783,
+        "trade_openness": 222.78050797990426,
+        "export_to_gdp": 118.1405071739582,
+        "import_to_gdp": 104.64000080594606
+      }
+    },
+    "2028": {
+      "global_market": {
+        "year_index": 3,
+        "simulation_year": 2028,
+        "global_scenario": "baseline",
+        "key_markets": {
+          "year_index": 3,
+          "simulation_year": 2028,
+          "gdp_growth": {},
+          "market_demand": {
+            "usa": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.03609144345740137,
+              "characteristics": {
+                "price_sensitivity": 0.6,
+                "quality_sensitivity": 0.74,
+                "lead_time_sensitivity": 0.8,
+                "compliance_sensitivity": 0.9400000000000001,
+                "e_commerce_penetration": 0.78,
+                "ethical_consumption_premium": 0.64
+              }
+            },
+            "eu": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.033999999999999996,
+              "characteristics": {
+                "price_sensitivity": 0.5,
+                "quality_sensitivity": 0.8400000000000001,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.9400000000000001,
+                "e_commerce_penetration": 0.78,
+                "ethical_consumption_premium": 0.8400000000000001
+              }
+            },
+            "china": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.046,
+              "characteristics": {
+                "price_sensitivity": 0.8,
+                "quality_sensitivity": 0.64,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.4,
+                "e_commerce_penetration": 0.8800000000000001,
+                "ethical_consumption_premium": 0.38000000000000006
+              }
+            },
+            "india": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.046,
+              "characteristics": {
+                "price_sensitivity": 0.9,
+                "quality_sensitivity": 0.54,
+                "lead_time_sensitivity": 0.6,
+                "compliance_sensitivity": 0.3,
+                "e_commerce_penetration": 0.5800000000000001,
+                "ethical_consumption_premium": 0.28
+              }
+            },
+            "japan": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.030999999999999996,
+              "characteristics": {
+                "price_sensitivity": 0.4,
+                "quality_sensitivity": 0.9400000000000001,
+                "lead_time_sensitivity": 0.8,
+                "compliance_sensitivity": 0.8400000000000001,
+                "e_commerce_penetration": 0.68,
+                "ethical_consumption_premium": 0.74
+              }
+            },
+            "asean": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.036,
+              "characteristics": {
+                "price_sensitivity": 0.7,
+                "quality_sensitivity": 0.64,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.54,
+                "e_commerce_penetration": 0.68,
+                "ethical_consumption_premium": 0.4800000000000001
+              }
+            },
+            "other": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.036,
+              "characteristics": {
+                "price_sensitivity": 0.7,
+                "quality_sensitivity": 0.64,
+                "lead_time_sensitivity": 0.6,
+                "compliance_sensitivity": 0.54,
+                "e_commerce_penetration": 0.5800000000000001,
+                "ethical_consumption_premium": 0.4800000000000001
+              }
+            }
+          },
+          "weighted_growth": 0.03527286086435034,
+          "market_weights": {
+            "usa": 0.25,
+            "eu": 0.55,
+            "china": 0.03,
+            "india": 0.02,
+            "japan": 0.03,
+            "asean": 0.04,
+            "other": 0.08
+          }
+        },
+        "competitors": {
+          "year_index": 3,
+          "simulation_year": 2028,
+          "effective_growth": {},
+          "competitive_position": {
+            "vietnam": {
+              "competitiveness_score": 1.234435608172939,
+              "factors": {
+                "wage_level": 1.3506105720000001,
+                "productivity": 1.5467043659517121,
+                "quality": 1.4344118575183724,
+                "lead_time": 1.2,
+                "infrastructure": 1.5609060150000003,
+                "political_stability": 1.4
+              }
+            },
+            "india": {
+              "competitiveness_score": 1.0930770580934124,
+              "factors": {
+                "wage_level": 1.2380596910000004,
+                "productivity": 1.4136076928315906,
+                "quality": 1.3178721449777138,
+                "lead_time": 0.9,
+                "infrastructure": 1.1446644110000002,
+                "political_stability": 1.0
+              }
+            },
+            "cambodia": {
+              "competitiveness_score": 0.894573575222737,
+              "factors": {
+                "wage_level": 1.1255088100000001,
+                "productivity": 0.967966103338175,
+                "quality": 0.9719676769019768,
+                "lead_time": 0.8,
+                "infrastructure": 0.9004070480000002,
+                "political_stability": 0.7
+              }
+            },
+            "ethiopia": {
+              "competitiveness_score": 0.9091684820345473,
+              "factors": {
+                "wage_level": 0.6753052860000001,
+                "productivity": 0.7436267220956243,
+                "quality": 0.7496208657878891,
+                "lead_time": 0.6,
+                "infrastructure": 0.5627544050000001,
+                "political_stability": 0.5
+              }
+            },
+            "myanmar": {
+              "competitiveness_score": 0.7999874814693771,
+              "factors": {
+                "wage_level": 0.9004070480000002,
+                "productivity": 0.7466958295554403,
+                "quality": 0.7496757199495292,
+                "lead_time": 0.7,
+                "infrastructure": 0.6753052860000001,
+                "political_stability": 0.3
+              }
+            }
+          },
+          "weighted_growth": 0
+        },
+        "supply_chain": {
+          "year_index": 3,
+          "simulation_year": 2028,
+          "china_plus_one": 0.74,
+          "nearshoring_trend": 0.56,
+          "resilience_premium": 0.22000000000000003,
+          "lead_time_requirements": {
+            "fast_fashion": 27.671044799999994,
+            "seasonal_fashion": 55.34208959999999,
+            "basics": 86.45364089999998,
+            "technical_products": 72.04470075
+          },
+          "inventory_patterns": {
+            "just_in_time": 0.44000000000000006,
+            "buffer_stock": 0.38,
+            "strategic_reserves": 0.18
+          },
+          "china_plus_one_benefit": 0.518,
+          "nearshoring_impact": 0.336,
+          "resilience_benefit": 0.08800000000000002,
+          "lead_time_impact": -0.12108849837407144,
+          "inventory_impact": -0.096,
+          "net_impact": 0.052911501625928586
+        },
+        "market_opportunity": 0.021163716518610202,
+        "supply_chain_opportunity": 0.182,
+        "sector_demand": {}
+      },
+      "geopolitical": {
+        "year_index": 3,
+        "simulation_year": 2028,
+        "regional_integration": {
+          "year_index": 3,
+          "simulation_year": 2028,
+          "bbin_implementation": 0.36000000000000004,
+          "bay_of_bengal_cooperation": 0.44000000000000006,
+          "saarc_revival_probability": 0.32118531543768725,
+          "saarc_revival_occurred": false,
+          "bilateral_relations": {
+            "india": {
+              "political_level": 0.40292765236981143,
+              "economic_level": 0.6014638261849057,
+              "security_level": 0.30292765236981145,
+              "relationship_score": 0.46234212189584917
+            },
+            "china": {
+              "political_level": 0.688631592953266,
+              "economic_level": 0.794315796476633,
+              "security_level": 0.5886315929532661,
+              "relationship_score": 0.7109052743626127
+            },
+            "myanmar": {
+              "political_level": 0.29359237145457423,
+              "economic_level": 0.4467961857272871,
+              "security_level": 0.19359237145457414,
+              "relationship_score": 0.3348738971636594
+            }
+          },
+          "rohingya_crisis_severity": 0.6199999999999999,
+          "trade_facilitation_score": 0.30600000000000005,
+          "stability_score": 0.4618584708740092,
+          "market_access": {
+            "india": 0.5048782957109434,
+            "china": 0.6880210575336431
+          }
+        },
+        "global_power_shifts": {
+          "year_index": 3,
+          "simulation_year": 2028,
+          "us_china_tension": 0.6599999999999999,
+          "india_china_tension": 0.5599999999999999,
+          "power_alignment": {
+            "us": 0.6498086710294966,
+            "china": 0.6012542667471339,
+            "india": 0.6110382723577218,
+            "eu": 0.5801024155475826,
+            "russia": 0.3741764688720258,
+            "japan": 0.5180930292084012
+          },
+          "development_finance": {
+            "western": {
+              "volume": 1087.514167183071,
+              "conditionality": 0.6900000000000002
+            },
+            "asian": {
+              "volume": 1849.8356648694248,
+              "conditionality": 0.39500000000000013
+            },
+            "availability": 1.1749399328209984
+          },
+          "indo_pacific": {
+            "engagement_level": 0.424681419492195,
+            "strategic_importance": 0.64
+          },
+          "favorable_relations_score": 0.5962732123961355,
+          "tension_level": 0.598
+        },
+        "trade_war_impacts": {
+          "year_index": 3,
+          "simulation_year": 2028,
+          "trade_war_probability": 0.25999999999999995,
+          "active_trade_wars": {},
+          "new_trade_wars": {},
+          "ended_trade_wars": [
+            "us_china",
+            "china_vietnam",
+            "china_india"
+          ],
+          "order_diversion_potential": {
+            "rmg": 0.6421654462203769,
+            "footwear": 0.5549025466435635,
+            "light_manufacturing": 0.4426926498332062,
+            "electronics": 0.3269365681416466,
+            "other": 0.2354498621895734
+          },
+          "market_diversification": 0.42000000000000004,
+          "secondary_sanction_exposure": 0.287,
+          "tariff_escalation": 0,
+          "order_diversion_opportunities": {
+            "rmg": 0.0,
+            "footwear": 0.0,
+            "light_manufacturing": 0.0,
+            "electronics": 0.0,
+            "other": 0.0
+          },
+          "sanction_risk": 0.0,
+          "opportunity_score": 0.0,
+          "vulnerability_score": 0.3761
+        },
+        "bri_impact": 0.05949999999999999,
+        "trade_benefit": 0.3072319637188407,
+        "trade_risk": 0.5134724587377972,
+        "net_geopolitical_impact": -0.20624049501895653
+      },
+      "investment": {
+        "fdi_inflow": 4.154762477678771,
+        "domestic_investment": 183.16453347819484,
+        "sez_exports": 5.8441863110237255,
+        "active_sezs": 9,
+        "investment_policy_index": 0.6236210435056505,
+        "fdi_sectors": {
+          "manufacturing": 0.43815237616762226,
+          "services": 0.3032648086242235,
+          "energy": 0.1492833968732737,
+          "infrastructure": 0.10929941833488054
+        },
+        "domestic_sectors": {
+          "manufacturing": 0.31575098849427946,
+          "services": 0.3613358410701472,
+          "agriculture": 0.12207876311428949,
+          "infrastructure": 0.20083440732128394
+        },
+        "gdp": 495.42191666290626
+      },
+      "trade_policy": {
+        "year_index": 3,
+        "simulation_year": 2028,
+        "tariff_rates": {},
+        "market_access_score": 0.7,
+        "domestic_policy_score": 0.5,
+        "fta_coverage": 0.0,
+        "economic_zones_operational": 0,
+        "ldc_benefits_active": true
+      },
+      "logistics": {
+        "year_index": 3,
+        "simulation_year": 2028,
+        "overall_performance": 0.2837552318934706,
+        "port_performance": 0.0,
+        "transport_performance": 0.5487696,
+        "facilitation_performance": 0.36674348757388253,
+        "logistics_cost": 0.17162447681065293,
+        "time_delay": 11.081223840532648,
+        "reliability": 0.6567510463786941,
+        "port_results": {},
+        "transport_result": {
+          "year_index": 3,
+          "simulation_year": 2028,
+          "modal_shares": {
+            "road": 0.582,
+            "rail": 0.162,
+            "waterway": 0.256
+          },
+          "road_quality": 0.624,
+          "road_capacity": 1.08243216,
+          "rail_share": 0.162,
+          "rail_quality": 0.536,
+          "waterway_share": 0.256,
+          "waterway_quality": 0.624,
+          "road_performance": 0.5616,
+          "rail_performance": 0.48240000000000005,
+          "waterway_performance": 0.5616,
+          "performance_score": 0.5487696,
+          "transport_cost": 1.0,
+          "disruption_impact": {
+            "road": 0.09999999999999999,
+            "rail": 0.1,
+            "waterway": 0.1
+          }
+        },
+        "facilitation_result": {
+          "year_index": 3,
+          "simulation_year": 2028,
+          "customs_level": 0.548,
+          "single_window_adoption": 0.18,
+          "paperless_trade_level": 0.37200000000000005,
+          "documentary_compliance": {
+            "time_days": 2.891644154362524,
+            "cost_usd": 195.28786773512257
+          },
+          "border_compliance": {
+            "time_days": 4.8669231201138325,
+            "cost_usd": 392.7282746015377
+          },
+          "corruption_incidence": 0.35754545362368584,
+          "performance_score": 0.36674348757388253
+        },
+        "container_volume": 1000.0,
+        "aggregate_port_capacity": 0,
+        "capacity_utilization": 1
+      },
+      "exchange_rate": {
+        "year_index": 3,
+        "exchange_rate": 127.58411338698305,
+        "real_effective_rate": 1.0729950402749358,
+        "depreciation_rate": 0.03179979276158101,
+        "potential_depreciation": 0.03179979276158101,
+        "foreign_reserves": 83000,
+        "reserve_months": 16.6,
+        "trade_balance": -10000,
+        "current_account_balance": 8500,
+        "capital_account_balance": 3500,
+        "overall_balance": 12000,
+        "intervention_cost": 0,
+        "export_impact": 0.022259854933106702,
+        "import_impact": -0.019079875656948603,
+        "remittance_impact": 0.012719917104632404,
+        "market_volatility": -0.0720020723841899,
+        "exchange_rate_pressure": 0.09000000000000001
+      },
+      "compliance": {
+        "year_index": 3,
+        "simulation_year": 2028,
+        "labor_standards": {
+          "year_index": 3,
+          "simulation_year": 2028,
+          "minimum_wage": 103.25138091589628,
+          "minimum_wage_growth": 0.08320000000000001,
+          "living_wage": 175.47878400000002,
+          "living_wage_gap": 0.4116019124232348,
+          "standards_compliance": {
+            "wage_compliance": 0.861465368434074,
+            "safety_compliance": 0.8822293285895705,
+            "working_hours_compliance": 0.6745303324434532,
+            "child_labor_compliance": 0.9663509793410927,
+            "union_rights_compliance": 0.5819913727384443
+          },
+          "average_compliance": 0.7933134763093269,
+          "compliance_cost": 0.06539940428927982,
+          "market_premium": 0.04386626952618654,
+          "unrest_risk": 0.3267920745329523,
+          "unrest_occurs": true
+        },
+        "environmental_compliance": {
+          "year_index": 3,
+          "simulation_year": 2028,
+          "carbon_tax_implemented": false,
+          "carbon_tax_rate": 0,
+          "green_certification_adoption": 0.632,
+          "compliance_areas": {
+            "water_treatment": 0.6999610467460425,
+            "air_emissions": 0.5441217264737473,
+            "chemical_management": 0.7827854784808119,
+            "waste_management": 0.6806596908934627,
+            "energy_efficiency": 0.44394513886092357
+          },
+          "average_compliance": 0.6302946162909976,
+          "carbon_intensity": 0.796718612022179,
+          "compliance_cost": 0.01892589232581995,
+          "market_premium": 0.04483618694211095
+        },
+        "product_standards": {
+          "year_index": 3,
+          "simulation_year": 2028,
+          "testing_capacity": 0.7344524155191297,
+          "compliance_capability": 0.7999773426339561,
+          "sector_standards": {
+            "rmg": {
+              "requirements": 0.7105940454742425,
+              "compliance": 0.95,
+              "gap": -0.23940595452575741
+            },
+            "pharma": {
+              "requirements": 0.95,
+              "compliance": 0.95,
+              "gap": 0.0
+            },
+            "food": {
+              "requirements": 0.899850184173445,
+              "compliance": 0.8132130069924776,
+              "gap": 0.08663717718096742
+            },
+            "electronics": {
+              "requirements": 0.9256007692920001,
+              "compliance": 0.7446211838014059,
+              "gap": 0.18097958549059423
+            },
+            "other": {
+              "requirements": 0.7105940454742425,
+              "compliance": 0.8459510594899017,
+              "gap": -0.13535701401565914
+            }
+          },
+          "certifications": {
+            "iso9001": 0.49808359461099216,
+            "iso14001": 0.40761949964261635,
+            "halal": 0.5885476895793679,
+            "gmp": 0.6790117845477437,
+            "other": 0.40761949964261635
+          },
+          "average_requirements": 0.8393278088827859,
+          "average_compliance": 0.8607570500567571,
+          "average_gap": -0.02142924117397116,
+          "compliance_cost": 0.021305443078483255,
+          "market_premium": 0.03958648980972921
+        },
+        "total_compliance_cost": 0.03822916233700289,
+        "total_market_premium": 0.04297030257761911,
+        "net_compliance_impact": 0.004741140240616219
+      },
+      "structural_transformation": {
+        "export_diversity_hhi": 0.6795614927468785,
+        "export_sectors": {
+          "rmg": 54.28174736125215,
+          "leather": 2.667324594038628,
+          "jute": 1.670388220462091,
+          "frozen_food": 0.9418183266661554,
+          "pharma": 0.26698193710795093,
+          "it_services": 2.1210273154549526,
+          "light_engineering": 0.8292821248154977,
+          "agro_processing": 1.2514170821187227,
+          "home_textiles": 1.5694085278822925,
+          "shipbuilding": 0.4746098859625793
+        },
+        "value_chain_position": {
+          "rmg": 0.31559678209212116,
+          "leather": 0.3775993093117142,
+          "jute": 0.46082727024765224,
+          "frozen_food": 0.4314882395046326,
+          "pharma": 0.5320491377403878,
+          "it_services": 0.6743020057375142,
+          "light_engineering": 0.47653805277666783,
+          "agro_processing": 0.42313907567804804,
+          "home_textiles": 0.3919652364671218,
+          "shipbuilding": 0.5785499021064328
+        },
+        "capability_index": 0.4065973332711752,
+        "industrial_policy_effectiveness": 0.6527887430496953
+      },
+      "digital_trade": {
+        "ecommerce_adoption_rate": 0.46729311328781775,
+        "digital_services_exports": 2.387710074704382,
+        "digital_infrastructure_index": 0.6312886936613661,
+        "digital_trade_barriers": 0.5589924633791786
+      },
+      "services_trade": {
+        "remittance_inflow": 22.96826863321503,
+        "overseas_workers": 9.299255177039669,
+        "tourism_earnings": 0.6975397058390465,
+        "tourist_arrivals": 0.971587466874255,
+        "business_process_exports": 2.131264099512272,
+        "professional_services_exports": 0.987835430921948,
+        "service_fdi_inflow": 2.325659249012865
+      },
+      "export": {
+        "total_exports": 58882.72568352001,
+        "sector_details": {
+          "rmg": {
+            "sector_name": "rmg",
+            "year_index": 3,
+            "export_volume": 50692.15442841032,
+            "growth_rate": 0.1031310721726766,
+            "global_market_share": 0.06328720199853655,
+            "competitiveness": 0.7,
+            "value_chain_position": "low_to_mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.013131072172676594
+          },
+          "pharma": {
+            "sector_name": "pharma",
+            "year_index": 3,
+            "export_volume": 2473.331311179635,
+            "growth_rate": 0.11050636659545357,
+            "global_market_share": 0.01085237150314151,
+            "competitiveness": 0.6799999999999999,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.01949363340454643
+          },
+          "it_services": {
+            "sector_name": "it_services",
+            "year_index": 3,
+            "export_volume": 2297.4793116910787,
+            "growth_rate": 0.17574169207484905,
+            "global_market_share": 0.005611491751617113,
+            "competitiveness": 0.74,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.01574169207484904
+          },
+          "leather": {
+            "sector_name": "leather",
+            "year_index": 3,
+            "export_volume": 1531.0077101302447,
+            "growth_rate": 0.1331719115801481,
+            "global_market_share": 0.01601393945377555,
+            "competitiveness": 0.64,
+            "value_chain_position": "low_to_mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.023171911580148082
+          },
+          "jute": {
+            "sector_name": "jute",
+            "year_index": 3,
+            "export_volume": 980.231021096155,
+            "growth_rate": 0.0435863536329658,
+            "global_market_share": 0.40712630692308666,
+            "competitiveness": 0.74,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.01641364636703421
+          },
+          "agro_products": {
+            "sector_name": "agro_products",
+            "year_index": 3,
+            "export_volume": 908.5219010125712,
+            "growth_rate": 0.08926752258488645,
+            "global_market_share": 0.010303294444060345,
+            "competitiveness": 0.64,
+            "value_chain_position": "low",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.019267522584886437
+          }
+        }
+      },
+      "import": {
+        "total_imports": 48076.34941364918,
+        "category_details": {
+          "industrial_inputs": {
+            "category_name": "industrial_inputs",
+            "year_index": 3,
+            "import_volume": 26464.114641581986,
+            "growth_rate": 0.016299062099335737,
+            "domestic_production_ratio": 0.32518659193139743,
+            "total_consumption": 39756.31666458736,
+            "price_impact": 0.0309201243430514,
+            "price_elasticity_effect": -0.021644087040135977,
+            "substitution_effect": 0.012368049737220561,
+            "random_variation": 0.008255618538729966
+          },
+          "consumer_goods": {
+            "category_name": "consumer_goods",
+            "year_index": 3,
+            "import_volume": 16156.138607062274,
+            "growth_rate": 0.01661997715302177,
+            "domestic_production_ratio": 0.5262798878970962,
+            "total_consumption": 34404.18991552398,
+            "price_impact": 0.0309201243430514,
+            "price_elasticity_effect": -0.024736099474441123,
+            "substitution_effect": 0.01855207460583084,
+            "random_variation": 0.0164412031998898
+          },
+          "energy": {
+            "category_name": "energy",
+            "year_index": 3,
+            "import_volume": 5456.096165004921,
+            "growth_rate": 0.04107091553277842,
+            "domestic_production_ratio": 0.22463994394854808,
+            "total_consumption": 6973.728205567839,
+            "price_impact": 0.0309201243430514,
+            "price_elasticity_effect": -0.02782811190874626,
+            "substitution_effect": 0.00927603730291542,
+            "random_variation": 0.03793585965307895
+          }
+        }
+      },
+      "aggregate_metrics": {
+        "trade_balance": 10806.37626987083,
+        "trade_openness": 215.89492006657835,
+        "export_to_gdp": 118.85369561392426,
+        "import_to_gdp": 97.04122445265409
+      }
+    },
+    "2029": {
+      "global_market": {
+        "year_index": 4,
+        "simulation_year": 2029,
+        "global_scenario": "baseline",
+        "key_markets": {
+          "year_index": 4,
+          "simulation_year": 2029,
+          "gdp_growth": {},
+          "market_demand": {
+            "usa": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.033546118839971294,
+              "characteristics": {
+                "price_sensitivity": 0.6,
+                "quality_sensitivity": 0.75,
+                "lead_time_sensitivity": 0.8,
+                "compliance_sensitivity": 0.95,
+                "e_commerce_penetration": 0.8,
+                "ethical_consumption_premium": 0.65
+              }
+            },
+            "eu": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.033999999999999996,
+              "characteristics": {
+                "price_sensitivity": 0.5,
+                "quality_sensitivity": 0.8500000000000001,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.95,
+                "e_commerce_penetration": 0.8,
+                "ethical_consumption_premium": 0.8500000000000001
+              }
+            },
+            "china": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.046,
+              "characteristics": {
+                "price_sensitivity": 0.8,
+                "quality_sensitivity": 0.65,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.4,
+                "e_commerce_penetration": 0.9000000000000001,
+                "ethical_consumption_premium": 0.4000000000000001
+              }
+            },
+            "india": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.046,
+              "characteristics": {
+                "price_sensitivity": 0.9,
+                "quality_sensitivity": 0.55,
+                "lead_time_sensitivity": 0.6,
+                "compliance_sensitivity": 0.3,
+                "e_commerce_penetration": 0.6000000000000001,
+                "ethical_consumption_premium": 0.30000000000000004
+              }
+            },
+            "japan": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.030999999999999996,
+              "characteristics": {
+                "price_sensitivity": 0.4,
+                "quality_sensitivity": 0.95,
+                "lead_time_sensitivity": 0.8,
+                "compliance_sensitivity": 0.8500000000000001,
+                "e_commerce_penetration": 0.7000000000000001,
+                "ethical_consumption_premium": 0.75
+              }
+            },
+            "asean": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.036,
+              "characteristics": {
+                "price_sensitivity": 0.7,
+                "quality_sensitivity": 0.65,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.55,
+                "e_commerce_penetration": 0.7000000000000001,
+                "ethical_consumption_premium": 0.5000000000000001
+              }
+            },
+            "other": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.036,
+              "characteristics": {
+                "price_sensitivity": 0.7,
+                "quality_sensitivity": 0.65,
+                "lead_time_sensitivity": 0.6,
+                "compliance_sensitivity": 0.55,
+                "e_commerce_penetration": 0.6000000000000001,
+                "ethical_consumption_premium": 0.5000000000000001
+              }
+            }
+          },
+          "weighted_growth": 0.03463652970999282,
+          "market_weights": {
+            "usa": 0.25,
+            "eu": 0.55,
+            "china": 0.03,
+            "india": 0.02,
+            "japan": 0.03,
+            "asean": 0.04,
+            "other": 0.08
+          }
+        },
+        "competitors": {
+          "year_index": 4,
+          "simulation_year": 2029,
+          "effective_growth": {},
+          "competitive_position": {
+            "vietnam": {
+              "competitiveness_score": 1.2448685563030002,
+              "factors": {
+                "wage_level": 1.3911288891600002,
+                "productivity": 1.5863140110936373,
+                "quality": 1.4715102523661585,
+                "lead_time": 1.2,
+                "infrastructure": 1.5765150751500003,
+                "political_stability": 1.4
+              }
+            },
+            "india": {
+              "competitiveness_score": 1.0996690034145191,
+              "factors": {
+                "wage_level": 1.2752014817300004,
+                "productivity": 1.443924833930908,
+                "quality": 1.350079949608282,
+                "lead_time": 0.9,
+                "infrastructure": 1.1561110551100002,
+                "political_stability": 1.0
+              }
+            },
+            "cambodia": {
+              "competitiveness_score": 0.8970517346669997,
+              "factors": {
+                "wage_level": 1.1592740743,
+                "productivity": 0.9863613993882647,
+                "quality": 0.9912744676504884,
+                "lead_time": 0.8,
+                "infrastructure": 0.9274192594400001,
+                "political_stability": 0.7
+              }
+            },
+            "ethiopia": {
+              "competitiveness_score": 0.9028733660782544,
+              "factors": {
+                "wage_level": 0.6955644445800001,
+                "productivity": 0.7552477814519308,
+                "quality": 0.7627785694039317,
+                "lead_time": 0.6,
+                "infrastructure": 0.57963703715,
+                "political_stability": 0.5
+              }
+            },
+            "myanmar": {
+              "competitiveness_score": 0.7974486023896759,
+              "factors": {
+                "wage_level": 0.9274192594400001,
+                "productivity": 0.7592052642583241,
+                "quality": 0.7628640546797478,
+                "lead_time": 0.7,
+                "infrastructure": 0.6955644445800001,
+                "political_stability": 0.3
+              }
+            }
+          },
+          "weighted_growth": 0
+        },
+        "supply_chain": {
+          "year_index": 4,
+          "simulation_year": 2029,
+          "china_plus_one": 0.75,
+          "nearshoring_trend": 0.5750000000000001,
+          "resilience_premium": 0.22500000000000003,
+          "lead_time_requirements": {
+            "fast_fashion": 27.117623903999995,
+            "seasonal_fashion": 54.23524780799999,
+            "basics": 85.58910449099999,
+            "technical_products": 71.3242537425
+          },
+          "inventory_patterns": {
+            "just_in_time": 0.45000000000000007,
+            "buffer_stock": 0.375,
+            "strategic_reserves": 0.175
+          },
+          "china_plus_one_benefit": 0.5249999999999999,
+          "nearshoring_impact": 0.34500000000000003,
+          "resilience_benefit": 0.09000000000000002,
+          "lead_time_impact": -0.12954788026112793,
+          "inventory_impact": -0.1,
+          "net_impact": 0.04045211973887197
+        },
+        "market_opportunity": 0.020781917825995692,
+        "supply_chain_opportunity": 0.17999999999999988,
+        "sector_demand": {}
+      },
+      "geopolitical": {
+        "year_index": 4,
+        "simulation_year": 2029,
+        "regional_integration": {
+          "year_index": 4,
+          "simulation_year": 2029,
+          "bbin_implementation": 0.37500000000000006,
+          "bay_of_bengal_cooperation": 0.45000000000000007,
+          "saarc_revival_probability": 0.3227857918368328,
+          "saarc_revival_occurred": false,
+          "bilateral_relations": {
+            "india": {
+              "political_level": 0.32755403593406246,
+              "economic_level": 0.5637770179670312,
+              "security_level": 0.22755403593406248,
+              "relationship_score": 0.40204322874725
+            },
+            "china": {
+              "political_level": 0.6809214220118556,
+              "economic_level": 0.7904607110059277,
+              "security_level": 0.5809214220118556,
+              "relationship_score": 0.7047371376094845
+            },
+            "myanmar": {
+              "political_level": 0.361822766417903,
+              "economic_level": 0.48091138320895144,
+              "security_level": 0.2618227664179029,
+              "relationship_score": 0.3894582131343224
+            }
+          },
+          "rohingya_crisis_severity": 0.5999999999999999,
+          "trade_facilitation_score": 0.31500000000000006,
+          "stability_score": 0.45945203877293644,
+          "market_access": {
+            "india": 0.4882662107802187,
+            "china": 0.6883224977041494
+          }
+        },
+        "global_power_shifts": {
+          "year_index": 4,
+          "simulation_year": 2029,
+          "us_china_tension": 0.6499999999999999,
+          "india_china_tension": 0.5499999999999999,
+          "power_alignment": {
+            "us": 0.6636432109959975,
+            "china": 0.6329292512223844,
+            "india": 0.6060761957614341,
+            "eu": 0.6091730970907289,
+            "russia": 0.3688833322072667,
+            "japan": 0.5724964125401936
+          },
+          "development_finance": {
+            "western": {
+              "volume": 1111.0440936299474,
+              "conditionality": 0.6875000000000002
+            },
+            "asian": {
+              "volume": 1948.4748798582848,
+              "conditionality": 0.39375000000000016
+            },
+            "availability": 1.2238075893952929
+          },
+          "indo_pacific": {
+            "engagement_level": 0.4350384724182007,
+            "strategic_importance": 0.65
+          },
+          "favorable_relations_score": 0.612416573240791,
+          "tension_level": 0.59
+        },
+        "trade_war_impacts": {
+          "year_index": 4,
+          "simulation_year": 2029,
+          "trade_war_probability": 0.24999999999999994,
+          "active_trade_wars": {
+            "us_china": {
+              "started_year": 2029,
+              "intensity": 0.8085663327780878,
+              "duration_years": 2
+            },
+            "us_eu": {
+              "started_year": 2029,
+              "intensity": 0.43922292147167763,
+              "duration_years": 2
+            }
+          },
+          "new_trade_wars": {
+            "us_china": {
+              "started_year": 2029,
+              "intensity": 0.7622865922732215,
+              "duration_years": 2
+            },
+            "us_eu": {
+              "started_year": 2029,
+              "intensity": 0.5290944591814336,
+              "duration_years": 2
+            }
+          },
+          "ended_trade_wars": [],
+          "order_diversion_potential": {
+            "rmg": 0.6424745785509542,
+            "footwear": 0.5734689178953181,
+            "light_manufacturing": 0.4512563327995525,
+            "electronics": 0.34626966452252,
+            "other": 0.2547222617313585
+          },
+          "market_diversification": 0.42500000000000004,
+          "secondary_sanction_exposure": 0.2835,
+          "tariff_escalation": 0.13404348223312793,
+          "order_diversion_opportunities": {
+            "rmg": 0.4305976487761559,
+            "footwear": 0.3843488535357608,
+            "light_manufacturing": 0.3024398511410164,
+            "electronics": 0.23207595812147788,
+            "other": 0.17071929482384754
+          },
+          "sanction_risk": 0.11400398163927528,
+          "opportunity_score": 0.1786242304039736,
+          "vulnerability_score": 0.3993586964466255
+        },
+        "bri_impact": 0.05949999999999999,
+        "trade_benefit": 0.3513998180530321,
+        "trade_risk": 0.5179719973021067,
+        "net_geopolitical_impact": -0.16657217924907464
+      },
+      "investment": {
+        "fdi_inflow": 4.903527185643686,
+        "domestic_investment": 201.65929550243618,
+        "sez_exports": 7.022017709147643,
+        "active_sezs": 10,
+        "investment_policy_index": 0.6245332269959796,
+        "fdi_sectors": {
+          "manufacturing": 0.4329019888263725,
+          "services": 0.30822498565869744,
+          "energy": 0.1448962962162342,
+          "infrastructure": 0.11397672929869587
+        },
+        "domestic_sectors": {
+          "manufacturing": 0.3177941964116225,
+          "services": 0.36162863441694865,
+          "agriculture": 0.11785458767225283,
+          "infrastructure": 0.20272258149917613
+        },
+        "gdp": 537.1252847723622
+      },
+      "trade_policy": {
+        "year_index": 4,
+        "simulation_year": 2029,
+        "tariff_rates": {},
+        "market_access_score": 0.7,
+        "domestic_policy_score": 0.5,
+        "fta_coverage": 0.0,
+        "economic_zones_operational": 0,
+        "ldc_benefits_active": true
+      },
+      "logistics": {
+        "year_index": 4,
+        "simulation_year": 2029,
+        "overall_performance": 0.28868929700791934,
+        "port_performance": 0.0,
+        "transport_performance": 0.5543775,
+        "facilitation_performance": 0.3786286880316776,
+        "logistics_cost": 0.17113107029920807,
+        "time_delay": 11.056553514960402,
+        "reliability": 0.6577378594015838,
+        "port_results": {},
+        "transport_result": {
+          "year_index": 4,
+          "simulation_year": 2029,
+          "modal_shares": {
+            "road": 0.5774999999999999,
+            "rail": 0.165,
+            "waterway": 0.2575
+          },
+          "road_quality": 0.63,
+          "road_capacity": 1.1040808032,
+          "rail_share": 0.165,
+          "rail_quality": 0.545,
+          "waterway_share": 0.2575,
+          "waterway_quality": 0.63,
+          "road_performance": 0.5670000000000001,
+          "rail_performance": 0.49050000000000005,
+          "waterway_performance": 0.5670000000000001,
+          "performance_score": 0.5543775,
+          "transport_cost": 1.0,
+          "disruption_impact": {
+            "road": 0.09999999999999999,
+            "rail": 0.1,
+            "waterway": 0.1
+          }
+        },
+        "facilitation_result": {
+          "year_index": 4,
+          "simulation_year": 2029,
+          "customs_level": 0.56,
+          "single_window_adoption": 0.24,
+          "paperless_trade_level": 0.39000000000000007,
+          "documentary_compliance": {
+            "time_days": 2.84566701230816,
+            "cost_usd": 193.07330331500629
+          },
+          "border_compliance": {
+            "time_days": 4.8166964735142574,
+            "cost_usd": 389.6060848184555
+          },
+          "corruption_incidence": 0.34669037365167077,
+          "performance_score": 0.3786286880316776
+        },
+        "container_volume": 1000.0,
+        "aggregate_port_capacity": 0,
+        "capacity_utilization": 1
+      },
+      "exchange_rate": {
+        "year_index": 4,
+        "exchange_rate": 132.27125884530145,
+        "real_effective_rate": 1.0909544973840717,
+        "depreciation_rate": 0.036737688838276654,
+        "potential_depreciation": 0.036737688838276654,
+        "foreign_reserves": 95000,
+        "reserve_months": 19.0,
+        "trade_balance": -10000,
+        "current_account_balance": 8500,
+        "capital_account_balance": 3500,
+        "overall_balance": 12000,
+        "intervention_cost": 0,
+        "export_impact": 0.025716382186793656,
+        "import_impact": -0.02204261330296599,
+        "remittance_impact": 0.014695075535310662,
+        "market_volatility": -0.02262311161723346,
+        "exchange_rate_pressure": 0.09000000000000001
+      },
+      "compliance": {
+        "year_index": 4,
+        "simulation_year": 2029,
+        "labor_standards": {
+          "year_index": 4,
+          "simulation_year": 2029,
+          "minimum_wage": 111.84189580809884,
+          "minimum_wage_growth": 0.08320000000000001,
+          "living_wage": 182.49793536,
+          "living_wage_gap": 0.38716076109312303,
+          "standards_compliance": {
+            "wage_compliance": 0.8880216878039479,
+            "safety_compliance": 0.9111282563513058,
+            "working_hours_compliance": 0.6929791648320824,
+            "child_labor_compliance": 0.9741457219898499,
+            "union_rights_compliance": 0.6002588619119037
+          },
+          "average_compliance": 0.813306738577818,
+          "compliance_cost": 0.06599920215733454,
+          "market_premium": 0.04426613477155636,
+          "unrest_risk": 0.33173822236903655,
+          "unrest_occurs": false
+        },
+        "environmental_compliance": {
+          "year_index": 4,
+          "simulation_year": 2029,
+          "carbon_tax_implemented": false,
+          "carbon_tax_rate": 0,
+          "green_certification_adoption": 0.74,
+          "compliance_areas": {
+            "water_treatment": 0.7185933623968558,
+            "air_emissions": 0.566901317826877,
+            "chemical_management": 0.7897706928985501,
+            "waste_management": 0.6993483659713029,
+            "energy_efficiency": 0.46475593924019154
+          },
+          "average_compliance": 0.6478739356667556,
+          "carbon_intensity": 0.7947544800591064,
+          "compliance_cost": 0.02035747871333511,
+          "market_premium": 0.050605352649001865
+        },
+        "product_standards": {
+          "year_index": 4,
+          "simulation_year": 2029,
+          "testing_capacity": 0.7870991950335339,
+          "compliance_capability": 0.8453381990823926,
+          "sector_standards": {
+            "rmg": {
+              "requirements": 0.7412917082387298,
+              "compliance": 0.95,
+              "gap": -0.20870829176127015
+            },
+            "pharma": {
+              "requirements": 0.95,
+              "compliance": 0.95,
+              "gap": 0.0
+            },
+            "food": {
+              "requirements": 0.95,
+              "compliance": 0.8758001611564031,
+              "gap": 0.07419983884359682
+            },
+            "electronics": {
+              "requirements": 0.95,
+              "compliance": 0.8037787468057779,
+              "gap": 0.14622125319422208
+            },
+            "other": {
+              "requirements": 0.7412917082387298,
+              "compliance": 0.920610530866762,
+              "gap": -0.17931882262803223
+            }
+          },
+          "certifications": {
+            "iso9001": 0.5221021915963316,
+            "iso14001": 0.43397323800153054,
+            "halal": 0.6102311451911328,
+            "gmp": 0.6983600987859339,
+            "other": 0.43397323800153054
+          },
+          "average_requirements": 0.8665166832954918,
+          "average_compliance": 0.9000378877657885,
+          "average_gap": -0.03352120447029672,
+          "compliance_cost": 0.021721977354953854,
+          "market_premium": 0.041392900326900836
+        },
+        "total_compliance_cost": 0.03902351768342051,
+        "total_market_premium": 0.0459398515891379,
+        "net_compliance_impact": 0.006916333905717394
+      },
+      "structural_transformation": {
+        "export_diversity_hhi": 0.6688943543294947,
+        "export_sectors": {
+          "rmg": 59.079427095397776,
+          "leather": 3.0940487553691978,
+          "jute": 1.9341154828160267,
+          "frozen_food": 1.0444310611847365,
+          "pharma": 0.3157037267250284,
+          "it_services": 2.3873174149830017,
+          "light_engineering": 0.9036409182595851,
+          "agro_processing": 1.4556116669105963,
+          "home_textiles": 1.746249864299457,
+          "shipbuilding": 0.5496957424257
+        },
+        "value_chain_position": {
+          "rmg": 0.3398195851264348,
+          "leather": 0.3910440556297363,
+          "jute": 0.4789926497027819,
+          "frozen_food": 0.44976703577149163,
+          "pharma": 0.555386008475538,
+          "it_services": 0.6871218862875276,
+          "light_engineering": 0.5014273158096721,
+          "agro_processing": 0.43632423831573863,
+          "home_textiles": 0.4067305639700126,
+          "shipbuilding": 0.5970147957553746
+        },
+        "capability_index": 0.4261162800109615,
+        "industrial_policy_effectiveness": 0.6597910031862834
+      },
+      "digital_trade": {
+        "ecommerce_adoption_rate": 0.572004166350688,
+        "digital_services_exports": 2.7589216669509393,
+        "digital_infrastructure_index": 0.6940290676018794,
+        "digital_trade_barriers": 0.5292665057025066
+      },
+      "services_trade": {
+        "remittance_inflow": 24.683918805167448,
+        "overseas_workers": 9.773229616406386,
+        "tourism_earnings": 0.7844707895012909,
+        "tourist_arrivals": 1.0550248700778282,
+        "business_process_exports": 2.6075390215191785,
+        "professional_services_exports": 1.1422743491936065,
+        "service_fdi_inflow": 2.9453932982618407
+      },
+      "export": {
+        "total_exports": 63338.43412797482,
+        "sector_details": {
+          "rmg": {
+            "sector_name": "rmg",
+            "year_index": 4,
+            "export_volume": 54095.65579007293,
+            "growth_rate": 0.06714059404338754,
+            "global_market_share": 0.06375730685405046,
+            "competitiveness": 0.705,
+            "value_chain_position": "low_to_mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.022859405956612462
+          },
+          "pharma": {
+            "sector_name": "pharma",
+            "year_index": 4,
+            "export_volume": 2812.5629152548618,
+            "growth_rate": 0.13715574720696566,
+            "global_market_share": 0.011084950298618853,
+            "competitiveness": 0.6849999999999999,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.007155747206965666
+          },
+          "it_services": {
+            "sector_name": "it_services",
+            "year_index": 4,
+            "export_volume": 2690.8438185146015,
+            "growth_rate": 0.17121569052736468,
+            "global_market_share": 0.005769977888135757,
+            "competitiveness": 0.745,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.011215690527364689
+          },
+          "leather": {
+            "sector_name": "leather",
+            "year_index": 4,
+            "export_volume": 1732.5817543199214,
+            "growth_rate": 0.13166102486350556,
+            "global_market_share": 0.016339538153170137,
+            "competitiveness": 0.645,
+            "value_chain_position": "low_to_mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.021661024863505542
+          },
+          "jute": {
+            "sector_name": "jute",
+            "year_index": 4,
+            "export_volume": 1059.7042715919122,
+            "growth_rate": 0.08107604104069807,
+            "global_market_share": 0.41128518691531696,
+            "competitiveness": 0.745,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.02107604104069806
+          },
+          "agro_products": {
+            "sector_name": "agro_products",
+            "year_index": 4,
+            "export_volume": 947.085578220588,
+            "growth_rate": 0.04244661264085818,
+            "global_market_share": 0.010328942667034331,
+            "competitiveness": 0.645,
+            "value_chain_position": "low",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.027553387359141823
+          }
+        }
+      },
+      "import": {
+        "total_imports": 48139.28097427518,
+        "category_details": {
+          "industrial_inputs": {
+            "category_name": "industrial_inputs",
+            "year_index": 4,
+            "import_volume": 26230.374628945516,
+            "growth_rate": -0.00883233827400387,
+            "domestic_production_ratio": 0.33149573966533813,
+            "total_consumption": 40785.61406481015,
+            "price_impact": 0.02795738669703401,
+            "price_elasticity_effect": -0.019570170687923806,
+            "substitution_effect": 0.011182954678813604,
+            "random_variation": -0.018756500798302458
+          },
+          "consumer_goods": {
+            "category_name": "consumer_goods",
+            "year_index": 4,
+            "import_volume": 16364.96692753251,
+            "growth_rate": 0.01292563313234707,
+            "domestic_production_ratio": 0.5328686094980073,
+            "total_consumption": 35469.01160002865,
+            "price_impact": 0.02795738669703401,
+            "price_elasticity_effect": -0.02236590935762721,
+            "substitution_effect": 0.016774432018220407,
+            "random_variation": 0.010300705344173195
+          },
+          "energy": {
+            "category_name": "energy",
+            "year_index": 4,
+            "import_volume": 5543.939417797145,
+            "growth_rate": 0.016100019159421164,
+            "domestic_production_ratio": 0.2308093047490036,
+            "total_consumption": 7318.329036063441,
+            "price_impact": 0.02795738669703401,
+            "price_elasticity_effect": -0.02516164802733061,
+            "substitution_effect": 0.008387216009110203,
+            "random_variation": 0.010275719018244176
+          }
+        }
+      },
+      "aggregate_metrics": {
+        "trade_balance": 15199.15315369964,
+        "trade_openness": 207.54508913036014,
+        "export_to_gdp": 117.921155312616,
+        "import_to_gdp": 89.62393381774417
+      }
+    },
+    "2030": {
+      "global_market": {
+        "year_index": 5,
+        "simulation_year": 2030,
+        "global_scenario": "baseline",
+        "key_markets": {
+          "year_index": 5,
+          "simulation_year": 2030,
+          "gdp_growth": {},
+          "market_demand": {
+            "usa": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.041150476863060476,
+              "characteristics": {
+                "price_sensitivity": 0.6,
+                "quality_sensitivity": 0.76,
+                "lead_time_sensitivity": 0.8,
+                "compliance_sensitivity": 0.95,
+                "e_commerce_penetration": 0.8200000000000001,
+                "ethical_consumption_premium": 0.66
+              }
+            },
+            "eu": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.033999999999999996,
+              "characteristics": {
+                "price_sensitivity": 0.5,
+                "quality_sensitivity": 0.8600000000000001,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.95,
+                "e_commerce_penetration": 0.8200000000000001,
+                "ethical_consumption_premium": 0.8600000000000001
+              }
+            },
+            "china": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.046,
+              "characteristics": {
+                "price_sensitivity": 0.8,
+                "quality_sensitivity": 0.66,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.4,
+                "e_commerce_penetration": 0.9200000000000002,
+                "ethical_consumption_premium": 0.4200000000000001
+              }
+            },
+            "india": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.046,
+              "characteristics": {
+                "price_sensitivity": 0.9,
+                "quality_sensitivity": 0.56,
+                "lead_time_sensitivity": 0.6,
+                "compliance_sensitivity": 0.3,
+                "e_commerce_penetration": 0.6200000000000001,
+                "ethical_consumption_premium": 0.32000000000000006
+              }
+            },
+            "japan": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.030999999999999996,
+              "characteristics": {
+                "price_sensitivity": 0.4,
+                "quality_sensitivity": 0.95,
+                "lead_time_sensitivity": 0.8,
+                "compliance_sensitivity": 0.8600000000000001,
+                "e_commerce_penetration": 0.7200000000000001,
+                "ethical_consumption_premium": 0.76
+              }
+            },
+            "asean": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.036,
+              "characteristics": {
+                "price_sensitivity": 0.7,
+                "quality_sensitivity": 0.66,
+                "lead_time_sensitivity": 0.7,
+                "compliance_sensitivity": 0.56,
+                "e_commerce_penetration": 0.7200000000000001,
+                "ethical_consumption_premium": 0.5200000000000001
+              }
+            },
+            "other": {
+              "gdp_growth": 0.03,
+              "demand_growth": 0.036,
+              "characteristics": {
+                "price_sensitivity": 0.7,
+                "quality_sensitivity": 0.66,
+                "lead_time_sensitivity": 0.6,
+                "compliance_sensitivity": 0.56,
+                "e_commerce_penetration": 0.6200000000000001,
+                "ethical_consumption_premium": 0.5200000000000001
+              }
+            }
+          },
+          "weighted_growth": 0.036537619215765114,
+          "market_weights": {
+            "usa": 0.25,
+            "eu": 0.55,
+            "china": 0.03,
+            "india": 0.02,
+            "japan": 0.03,
+            "asean": 0.04,
+            "other": 0.08
+          }
+        },
+        "competitors": {
+          "year_index": 5,
+          "simulation_year": 2030,
+          "effective_growth": {},
+          "competitive_position": {
+            "vietnam": {
+              "competitiveness_score": 1.2560701245610042,
+              "factors": {
+                "wage_level": 1.4328627558348002,
+                "productivity": 1.6271856307286816,
+                "quality": 1.5101695582710215,
+                "lead_time": 1.2,
+                "infrastructure": 1.5922802259015003,
+                "political_stability": 1.4
+              }
+            },
+            "india": {
+              "competitiveness_score": 1.1068825460390668,
+              "factors": {
+                "wage_level": 1.3134575261819004,
+                "productivity": 1.475057456902771,
+                "quality": 1.383495204075211,
+                "lead_time": 0.9,
+                "infrastructure": 1.1676721656611002,
+                "political_stability": 1.0
+              }
+            },
+            "cambodia": {
+              "competitiveness_score": 0.9000746475999363,
+              "factors": {
+                "wage_level": 1.1940522965290001,
+                "productivity": 1.005372718967756,
+                "quality": 1.0111532153948442,
+                "lead_time": 0.8,
+                "infrastructure": 0.9552418372232002,
+                "political_stability": 0.7
+              }
+            },
+            "ethiopia": {
+              "competitiveness_score": 0.8971319790200559,
+              "factors": {
+                "wage_level": 0.7164313779174001,
+                "productivity": 0.7671779551299993,
+                "quality": 0.776258224128894,
+                "lead_time": 0.6,
+                "infrastructure": 0.5970261482645001,
+                "political_stability": 0.5
+              }
+            },
+            "myanmar": {
+              "competitiveness_score": 0.7953918700769286,
+              "factors": {
+                "wage_level": 0.9552418372232002,
+                "productivity": 0.772078078780468,
+                "quality": 0.7763826013636234,
+                "lead_time": 0.7,
+                "infrastructure": 0.7164313779174001,
+                "political_stability": 0.3
+              }
+            }
+          },
+          "weighted_growth": 0
+        },
+        "supply_chain": {
+          "year_index": 5,
+          "simulation_year": 2030,
+          "china_plus_one": 0.76,
+          "nearshoring_trend": 0.5900000000000001,
+          "resilience_premium": 0.23000000000000004,
+          "lead_time_requirements": {
+            "fast_fashion": 26.575271425919993,
+            "seasonal_fashion": 53.15054285183999,
+            "basics": 84.73321344608999,
+            "technical_products": 70.611011205075
+          },
+          "inventory_patterns": {
+            "just_in_time": 0.4600000000000001,
+            "buffer_stock": 0.37,
+            "strategic_reserves": 0.16999999999999998
+          },
+          "china_plus_one_benefit": 0.5319999999999999,
+          "nearshoring_impact": 0.35400000000000004,
+          "resilience_benefit": 0.09200000000000003,
+          "lead_time_impact": -0.13810769200303538,
+          "inventory_impact": -0.10400000000000001,
+          "net_impact": 0.027892307996964516
+        },
+        "market_opportunity": 0.02192257152945907,
+        "supply_chain_opportunity": 0.17799999999999988,
+        "sector_demand": {}
+      },
+      "geopolitical": {
+        "year_index": 5,
+        "simulation_year": 2030,
+        "regional_integration": {
+          "year_index": 5,
+          "simulation_year": 2030,
+          "bbin_implementation": 0.39000000000000007,
+          "bay_of_bengal_cooperation": 0.4600000000000001,
+          "saarc_revival_probability": 0.3398989096547862,
+          "saarc_revival_occurred": false,
+          "bilateral_relations": {
+            "india": {
+              "political_level": 0.7128271849995347,
+              "economic_level": 0.7564135924997673,
+              "security_level": 0.6128271849995346,
+              "relationship_score": 0.7102617479996278
+            },
+            "china": {
+              "political_level": 0.7763215983611758,
+              "economic_level": 0.8381607991805878,
+              "security_level": 0.6763215983611759,
+              "relationship_score": 0.7810572786889407
+            },
+            "myanmar": {
+              "political_level": 0.4921010166790626,
+              "economic_level": 0.5460505083395313,
+              "security_level": 0.3921010166790625,
+              "relationship_score": 0.4936808133432501
+            }
+          },
+          "rohingya_crisis_severity": 0.5799999999999998,
+          "trade_facilitation_score": 0.32400000000000007,
+          "stability_score": 0.5940261428063266,
+          "market_access": {
+            "india": 0.6098481554998604,
+            "china": 0.7247125594264114
+          }
+        },
+        "global_power_shifts": {
+          "year_index": 5,
+          "simulation_year": 2030,
+          "us_china_tension": 0.6399999999999999,
+          "india_china_tension": 0.5399999999999999,
+          "power_alignment": {
+            "us": 0.6478797487639802,
+            "china": 0.6819121358094599,
+            "india": 0.5634675352795792,
+            "eu": 0.6044367249559287,
+            "russia": 0.35917606125068463,
+            "japan": 0.57413389532792
+          },
+          "development_finance": {
+            "western": {
+              "volume": 1134.9079847168634,
+              "conditionality": 0.6850000000000003
+            },
+            "asian": {
+              "volume": 2054.7599045253514,
+              "conditionality": 0.3925000000000002
+            },
+            "availability": 1.2758671556968861
+          },
+          "indo_pacific": {
+            "engagement_level": 0.4446564767162373,
+            "strategic_importance": 0.66
+          },
+          "favorable_relations_score": 0.6102990214040309,
+          "tension_level": 0.582
+        },
+        "trade_war_impacts": {
+          "year_index": 5,
+          "simulation_year": 2030,
+          "trade_war_probability": 0.23999999999999994,
+          "active_trade_wars": {
+            "us_china": {
+              "started_year": 2029,
+              "intensity": 0.8085663327780878,
+              "duration_years": 2
+            },
+            "us_eu": {
+              "started_year": 2029,
+              "intensity": 0.43922292147167763,
+              "duration_years": 2
+            }
+          },
+          "new_trade_wars": {},
+          "ended_trade_wars": [],
+          "order_diversion_potential": {
+            "rmg": 0.6430845835497352,
+            "footwear": 0.5742158816703024,
+            "light_manufacturing": 0.4677083440127457,
+            "electronics": 0.35347347735074525,
+            "other": 0.2572634719843962
+          },
+          "market_diversification": 0.43000000000000005,
+          "secondary_sanction_exposure": 0.2799,
+          "tariff_escalation": 0.12477892542497654,
+          "order_diversion_opportunities": {
+            "rmg": 0.4012170164635225,
+            "footwear": 0.35825020338387903,
+            "light_manufacturing": 0.2918007228910283,
+            "electronics": 0.22053020335027884,
+            "other": 0.16050529792655754
+          },
+          "sanction_risk": 0.10477686367935278,
+          "opportunity_score": 0.16908942305833144,
+          "vulnerability_score": 0.39392578508499526
+        },
+        "bri_impact": 0.05949999999999999,
+        "trade_benefit": 0.3524575910328756,
+        "trade_risk": 0.4727698926836006,
+        "net_geopolitical_impact": -0.12031230165072498
+      },
+      "investment": {
+        "fdi_inflow": 5.281848082474253,
+        "domestic_investment": 221.44427088401252,
+        "sez_exports": 8.745164396030544,
+        "active_sezs": 12,
+        "investment_policy_index": 0.6454737570938505,
+        "fdi_sectors": {
+          "manufacturing": 0.4281930774178194,
+          "services": 0.3122795497153119,
+          "energy": 0.14153034890534374,
+          "infrastructure": 0.11799702396152495
+        },
+        "domestic_sectors": {
+          "manufacturing": 0.32411602096224174,
+          "services": 0.3623633809534655,
+          "agriculture": 0.1145357462974567,
+          "infrastructure": 0.19898485178683614
+        },
+        "gdp": 585.9977717216273
+      },
+      "trade_policy": {
+        "year_index": 5,
+        "simulation_year": 2030,
+        "tariff_rates": {},
+        "market_access_score": 0.7,
+        "domestic_policy_score": 0.5,
+        "fta_coverage": 0.0,
+        "economic_zones_operational": 0,
+        "ldc_benefits_active": true
+      },
+      "logistics": {
+        "year_index": 5,
+        "simulation_year": 2030,
+        "overall_performance": 0.29374555322131185,
+        "port_performance": 0.0,
+        "transport_performance": 0.5600016,
+        "facilitation_performance": 0.3909799728852474,
+        "logistics_cost": 0.1706254446778688,
+        "time_delay": 11.031272233893441,
+        "reliability": 0.6587491106442623,
+        "port_results": {},
+        "transport_result": {
+          "year_index": 5,
+          "simulation_year": 2030,
+          "modal_shares": {
+            "road": 0.573,
+            "rail": 0.168,
+            "waterway": 0.259
+          },
+          "road_quality": 0.636,
+          "road_capacity": 1.126162419264,
+          "rail_share": 0.168,
+          "rail_quality": 0.554,
+          "waterway_share": 0.259,
+          "waterway_quality": 0.636,
+          "road_performance": 0.5724,
+          "rail_performance": 0.49860000000000004,
+          "waterway_performance": 0.5724,
+          "performance_score": 0.5600016,
+          "transport_cost": 1.0,
+          "disruption_impact": {
+            "road": 0.09999999999999999,
+            "rail": 0.1,
+            "waterway": 0.1
+          }
+        },
+        "facilitation_result": {
+          "year_index": 5,
+          "simulation_year": 2030,
+          "customs_level": 0.5720000000000001,
+          "single_window_adoption": 0.3,
+          "paperless_trade_level": 0.4080000000000001,
+          "documentary_compliance": {
+            "time_days": 2.7927376058792284,
+            "cost_usd": 190.4668137202537
+          },
+          "border_compliance": {
+            "time_days": 4.76005212298573,
+            "cost_usd": 385.98274822964385
+          },
+          "corruption_incidence": 0.33579042830406225,
+          "performance_score": 0.3909799728852474
+        },
+        "container_volume": 1000.0,
+        "aggregate_port_capacity": 0,
+        "capacity_utilization": 1
+      },
+      "exchange_rate": {
+        "year_index": 5,
+        "exchange_rate": 138.46180516799248,
+        "real_effective_rate": 1.1201941514973575,
+        "depreciation_rate": 0.046801900705664395,
+        "potential_depreciation": 0.046801900705664395,
+        "foreign_reserves": 107000,
+        "reserve_months": 21.4,
+        "trade_balance": -10000,
+        "current_account_balance": 8500,
+        "capital_account_balance": 3500,
+        "overall_balance": 12000,
+        "intervention_cost": 0,
+        "export_impact": 0.032761330493965075,
+        "import_impact": -0.028081140423398637,
+        "remittance_impact": 0.01872076028226576,
+        "market_volatility": 0.07801900705664395,
+        "exchange_rate_pressure": 0.09000000000000001
+      },
+      "compliance": {
+        "year_index": 5,
+        "simulation_year": 2030,
+        "labor_standards": {
+          "year_index": 5,
+          "simulation_year": 2030,
+          "minimum_wage": 121.14714153933265,
+          "minimum_wage_growth": 0.08320000000000001,
+          "living_wage": 189.7978527744,
+          "living_wage_gap": 0.36170436193852973,
+          "standards_compliance": {
+            "wage_compliance": 0.9076548399558936,
+            "safety_compliance": 0.934590403572136,
+            "working_hours_compliance": 0.7018362905435926,
+            "child_labor_compliance": 0.98,
+            "union_rights_compliance": 0.6417887282735626
+          },
+          "average_compliance": 0.833174052469037,
+          "compliance_cost": 0.0665952215740711,
+          "market_premium": 0.04466348104938074,
+          "unrest_risk": 0.3359765690831168,
+          "unrest_occurs": false
+        },
+        "environmental_compliance": {
+          "year_index": 5,
+          "simulation_year": 2030,
+          "carbon_tax_implemented": false,
+          "carbon_tax_rate": 0,
+          "green_certification_adoption": 0.848,
+          "compliance_areas": {
+            "water_treatment": 0.7185933623968558,
+            "air_emissions": 0.5873961438428219,
+            "chemical_management": 0.7988858092431851,
+            "waste_management": 0.7247811705616382,
+            "energy_efficiency": 0.47678890464574203
+          },
+          "average_compliance": 0.6612890781380486,
+          "carbon_intensity": 0.7923447405277634,
+          "compliance_cost": 0.02170578156276097,
+          "market_premium": 0.05628707064089902
+        },
+        "product_standards": {
+          "year_index": 5,
+          "simulation_year": 2030,
+          "testing_capacity": 0.8375558685201389,
+          "compliance_capability": 0.8889844151570782,
+          "sector_standards": {
+            "rmg": {
+              "requirements": 0.7733155100346429,
+              "compliance": 0.95,
+              "gap": -0.17668448996535702
+            },
+            "pharma": {
+              "requirements": 0.95,
+              "compliance": 0.95,
+              "gap": 0.0
+            },
+            "food": {
+              "requirements": 0.95,
+              "compliance": 0.9447762218761105,
+              "gap": 0.005223778123889411
+            },
+            "electronics": {
+              "requirements": 0.95,
+              "compliance": 0.869153736807954,
+              "gap": 0.08084626319204591
+            },
+            "other": {
+              "requirements": 0.7733155100346429,
+              "compliance": 0.95,
+              "gap": -0.17668448996535702
+            }
+          },
+          "certifications": {
+            "iso9001": 0.5458597229181827,
+            "iso14001": 0.4600405293130061,
+            "halal": 0.6316789165233595,
+            "gmp": 0.7174981101285361,
+            "other": 0.4600405293130061
+          },
+          "average_requirements": 0.8793262040138572,
+          "average_compliance": 0.9327859917368129,
+          "average_gap": -0.053459787722955676,
+          "compliance_cost": 0.021612966064980657,
+          "market_premium": 0.0430087146178073
+        },
+        "total_compliance_cost": 0.03963371291795093,
+        "total_market_premium": 0.04881648695651602,
+        "net_compliance_impact": 0.009182774038565086
+      },
+      "structural_transformation": {
+        "export_diversity_hhi": 0.6564473987720264,
+        "export_sectors": {
+          "rmg": 63.37989364528439,
+          "leather": 3.3979583249032808,
+          "jute": 2.135932429032625,
+          "frozen_food": 1.127246860292786,
+          "pharma": 0.3836677423269299,
+          "it_services": 2.8751343800182894,
+          "light_engineering": 1.0107494543827755,
+          "agro_processing": 1.6413426995387639,
+          "home_textiles": 1.9388987625177874,
+          "shipbuilding": 0.6627633833940674
+        },
+        "value_chain_position": {
+          "rmg": 0.35399060377397334,
+          "leather": 0.4165251110263098,
+          "jute": 0.49282625656973594,
+          "frozen_food": 0.473279489068487,
+          "pharma": 0.5770056092631725,
+          "it_services": 0.6999058841548681,
+          "light_engineering": 0.5171055227605243,
+          "agro_processing": 0.45142072672056666,
+          "home_textiles": 0.42381160676247925,
+          "shipbuilding": 0.6163822384589288
+        },
+        "capability_index": 0.44768939029925686,
+        "industrial_policy_effectiveness": 0.6821931707162014
+      },
+      "digital_trade": {
+        "ecommerce_adoption_rate": 0.6819116810955175,
+        "digital_services_exports": 3.1949036223248535,
+        "digital_infrastructure_index": 0.7462881946187199,
+        "digital_trade_barriers": 0.4975522833370468
+      },
+      "services_trade": {
+        "remittance_inflow": 26.497840727629004,
+        "overseas_workers": 10.373964674202645,
+        "tourism_earnings": 0.8461016483709113,
+        "tourist_arrivals": 1.1113234764733142,
+        "business_process_exports": 3.202005234098005,
+        "professional_services_exports": 1.3169584338238849,
+        "service_fdi_inflow": 3.40703717452422
+      },
+      "export": {
+        "total_exports": 69216.85917005672,
+        "sector_details": {
+          "rmg": {
+            "sector_name": "rmg",
+            "year_index": 5,
+            "export_volume": 58840.129950296076,
+            "growth_rate": 0.08770527117066203,
+            "global_market_share": 0.06449313339027526,
+            "competitiveness": 0.71,
+            "value_chain_position": "low_to_mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.0022947288293379805
+          },
+          "pharma": {
+            "sector_name": "pharma",
+            "year_index": 5,
+            "export_volume": 3206.6022641087116,
+            "growth_rate": 0.14009974557960914,
+            "global_market_share": 0.011329040340146963,
+            "competitiveness": 0.69,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.010099745579609144
+          },
+          "it_services": {
+            "sector_name": "it_services",
+            "year_index": 5,
+            "export_volume": 3167.9710697285295,
+            "growth_rate": 0.17731510388340244,
+            "global_market_share": 0.005939978866534887,
+            "competitiveness": 0.75,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": 0.01731510388340243
+          },
+          "leather": {
+            "sector_name": "leather",
+            "year_index": 5,
+            "export_volume": 1881.5735142023009,
+            "growth_rate": 0.0859940718588845,
+            "global_market_share": 0.016522521607868056,
+            "competitiveness": 0.65,
+            "value_chain_position": "low_to_mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.024005928141115525
+          },
+          "jute": {
+            "sector_name": "jute",
+            "year_index": 5,
+            "export_volume": 1116.1970801179582,
+            "growth_rate": 0.053309975283181044,
+            "global_market_share": 0.41320259642358387,
+            "competitiveness": 0.75,
+            "value_chain_position": "mid",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.006690024716818968
+          },
+          "agro_products": {
+            "sector_name": "agro_products",
+            "year_index": 5,
+            "export_volume": 1004.3852916031485,
+            "growth_rate": 0.06050109377678088,
+            "global_market_share": 0.010391951476814773,
+            "competitiveness": 0.65,
+            "value_chain_position": "low",
+            "tariff_impact": 0.0,
+            "exchange_rate_impact": 0,
+            "logistics_impact": 0.0,
+            "trade_policy_impact": 0,
+            "compliance_impact": 0,
+            "competitor_impact": 0,
+            "random_variation": -0.009498906223219123
+          }
+        }
+      },
+      "import": {
+        "total_imports": 48991.4285065817,
+        "category_details": {
+          "industrial_inputs": {
+            "category_name": "industrial_inputs",
+            "year_index": 5,
+            "import_volume": 26264.646537404333,
+            "growth_rate": 0.0013065733503094812,
+            "domestic_production_ratio": 0.33768411685687016,
+            "total_consumption": 40806.904656743434,
+            "price_impact": 0.021918859576601366,
+            "price_elasticity_effect": -0.015343201703620956,
+            "substitution_effect": 0.008767543830640547,
+            "random_variation": -0.013066584651474238
+          },
+          "consumer_goods": {
+            "category_name": "consumer_goods",
+            "year_index": 5,
+            "import_volume": 17074.074177081406,
+            "growth_rate": 0.04333080859185179,
+            "domestic_production_ratio": 0.5392761752853054,
+            "total_consumption": 36434.2151923126,
+            "price_impact": 0.021918859576601366,
+            "price_elasticity_effect": -0.017535087661281094,
+            "substitution_effect": 0.01315131574596082,
+            "random_variation": 0.03530908480562194
+          },
+          "energy": {
+            "category_name": "energy",
+            "year_index": 5,
+            "import_volume": 5652.707792095966,
+            "growth_rate": 0.019619329523993922,
+            "domestic_production_ratio": 0.23688808764265262,
+            "total_consumption": 7495.796595183218,
+            "price_impact": 0.021918859576601366,
+            "price_elasticity_effect": -0.01972697361894123,
+            "substitution_effect": 0.00657565787298041,
+            "random_variation": 0.008099634219219111
+          }
+        }
+      },
+      "aggregate_metrics": {
+        "trade_balance": 20225.430663475017,
+        "trade_openness": 201.72139448474246,
+        "export_to_gdp": 118.11795626236193,
+        "import_to_gdp": 83.60343822238052
+      }
+    }
+  }
+}

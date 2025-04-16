@@ -1,0 +1,20 @@
+{
+  "description": "Optimistic scenario with strong (but more tempered) growth and diversification.",
+  "parameters": {
+    "annual_changes": {
+      "export_diversity_hhi": -0.020,
+      "capability_index": 0.030,
+      "rmg_share": -0.018,
+      "it_services_growth": 0.18,
+      "pharma_growth": 0.20,
+      "light_engineering_growth": 0.16,
+      "jute_growth": 0.05,
+      "leather_growth": 0.10,
+      "agro_processing_growth": 0.14,
+      "default_sector_growth": 0.06,
+      "rmg_growth": 0.025
+    },
+    "policy_effectiveness_increase": 0.035,
+    "growth_decay_rate": 0.97
+  }
+} 

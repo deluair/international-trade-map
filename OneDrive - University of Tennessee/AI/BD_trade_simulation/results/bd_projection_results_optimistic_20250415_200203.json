@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "simulation_type": "Bangladesh Trade Dynamics with Future Projections",
+    "simulation_years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027,
+      2028,
+      2029,
+      2030
+    ],
+    "historical_years": [
+      2023,
+      2022,
+      2021
+    ],
+    "projection_years": [
+      2024,
+      2025,
+      2026,
+      2027,
+      2028,
+      2029,
+      2030
+    ],
+    "timestamp": "2025-04-15 20:02:00",
+    "scenario": "optimistic"
+  },
+  "yearly_data": {
+    "2023": {
+      "structural_transformation": {
+        "export_diversity_hhi": 0.6938305357230182,
+        "export_sectors": {
+          "rmg": 38.0,
+          "leather": 1.8,
+          "jute": 1.2,
+          "frozen_food": 0.7,
+          "pharma": 0.16,
+          "it_services": 1.3,
+          "light_engineering": 0.5,
+          "agro_processing": 0.8,
+          "home_textiles": 1.0,
+          "shipbuilding": 0.3
+        },
+        "value_chain_position": {
+          "rmg": 0.2659111469819338,
+          "leather": 0.31430828289577123,
+          "jute": 0.41975354925027564,
+          "frozen_food": 0.36555933149309794,
+          "pharma": 0.4687924333473381,
+          "it_services": 0.617476662140881,
+          "light_engineering": 0.41683156117049963,
+          "agro_processing": 0.3648619169276816,
+          "home_textiles": 0.3279933152010076,
+          "shipbuilding": 0.5209283140040506
+        },
+        "capability_index": 0.3627674842125282,
+        "industrial_policy_effectiveness": 0.5086335215428562
+      }
+    },
+    "2022": {
+      "structural_transformation": {
+        "export_diversity_hhi": 0.6938305357230182,
+        "export_sectors": {
+          "rmg": 38.0,
+          "leather": 1.8,
+          "jute": 1.2,
+          "frozen_food": 0.7,
+          "pharma": 0.16,
+          "it_services": 1.3,
+          "light_engineering": 0.5,
+          "agro_processing": 0.8,
+          "home_textiles": 1.0,
+          "shipbuilding": 0.3
+        },
+        "value_chain_position": {
+          "rmg": 0.2788180109235522,
+          "leather": 0.3423805313984989,
+          "jute": 0.4334807668067137,
+          "frozen_food": 0.3904157577101352,
+          "pharma": 0.4864342092779502,
+          "it_services": 0.6312000817364944,
+          "light_engineering": 0.44041115694112715,
+          "agro_processing": 0.37951411608588725,
+          "home_textiles": 0.3477605754378843,
+          "shipbuilding": 0.5380947358808131
+        },
+        "capability_index": 0.37921679947506426,
+        "industrial_policy_effectiveness": 0.4732018635041138
+      }
+    },
+    "2021": {
+      "structural_transformation": {
+        "export_diversity_hhi": 0.6938305357230182,
+        "export_sectors": {
+          "rmg": 38.0,
+          "leather": 1.8,
+          "jute": 1.2,
+          "frozen_food": 0.7,
+          "pharma": 0.16,
+          "it_services": 1.3,
+          "light_engineering": 0.5,
+          "agro_processing": 0.8,
+          "home_textiles": 1.0,
+          "shipbuilding": 0.3
+        },
+        "value_chain_position": {
+          "rmg": 0.2914187159051174,
+          "leather": 0.36148644506004207,
+          "jute": 0.4507124967188958,
+          "frozen_food": 0.4161081483351692,
+          "pharma": 0.5068906748997701,
+          "it_services": 0.6520949748154039,
+          "light_engineering": 0.4614335072832726,
+          "agro_processing": 0.4033148450105364,
+          "home_textiles": 0.36136957089568483,
+          "shipbuilding": 0.5528711066886309
+        },
+        "capability_index": 0.3969240960158926,
+        "industrial_policy_effectiveness": 0.48817738980586367
+      }
+    },
+    "2024": {
+      "structural_transformation": {
+        "export_diversity_hhi": 0.6799539250085579,
+        "capability_index": 0.37365050873890404,
+        "industrial_policy_effectiveness": 0.535,
+        "export_sectors": {
+          "rmg": 38.949999999999996,
+          "leather": 1.9800000000000002,
+          "jute": 1.26,
+          "frozen_food": 0.742,
+          "pharma": 0.192,
+          "it_services": 1.534,
+          "light_engineering": 0.58,
+          "agro_processing": 0.9120000000000001,
+          "home_textiles": 1.06,
+          "shipbuilding": 0.318
+        },
+        "total_exports": 47.527999999999984,
+        "is_projected": true
+      }
+    },
+    "2025": {
+      "structural_transformation": {
+        "export_diversity_hhi": 0.653027749578219,
+        "capability_index": 0.3964058247211033,
+        "industrial_policy_effectiveness": 0.5700000000000001,
+        "export_sectors": {
+          "rmg": 40.921843749999994,
+          "leather": 2.395800000000001,
+          "jute": 1.38915,
+          "frozen_food": 0.8337112000000001,
+          "pharma": 0.27648,
+          "it_services": 2.1359415999999998,
+          "light_engineering": 0.7804479999999999,
+          "agro_processing": 1.1852352000000004,
+          "home_textiles": 1.1910160000000003,
+          "shipbuilding": 0.35730480000000003
+        },
+        "total_exports": 51.46693055,
+        "is_projected": true
+      }
+    },
+    "2026": {
+      "structural_transformation": {
+        "export_diversity_hhi": 0.614624493681023,
+        "capability_index": 0.43316334763001707,
+        "industrial_policy_effectiveness": 0.605,
+        "export_sectors": {
+          "rmg": 44.06834989208982,
+          "leather": 3.1888098000000022,
+          "jute": 1.6081147687500004,
+          "frozen_food": 0.9929633785792001,
+          "pharma": 0.4777574399999999,
+          "it_services": 3.509420398931199,
+          "light_engineering": 1.2181981614079995,
+          "agro_processing": 1.755978099148801,
+          "home_textiles": 1.4185191122560004,
+          "shipbuilding": 0.42555573367680005
+        },
+        "total_exports": 58.66366678483981,
+        "is_projected": true
+      }
+    },
+    "2027": {
+      "structural_transformation": {
+        "export_diversity_hhi": 0.5669100633274967,
+        "capability_index": 0.4875291639266769,
+        "industrial_policy_effectiveness": 0.64,
+        "export_sectors": {
+          "rmg": 48.64321267946155,
+          "leather": 4.668736428180004,
+          "jute": 1.9546735521329306,
+          "frozen_food": 1.253593387579998,
+          "pharma": 0.9906778275839998,
+          "it_services": 6.803986219938135,
+          "light_engineering": 2.205717539324956,
+          "agro_processing": 2.965777051294856,
+          "home_textiles": 1.7908476965428546,
+          "shipbuilding": 0.5372543089628563
+        },
+        "total_exports": 71.81447669100213,
+        "is_projected": true
+      }
+    },
+    "2028": {
+      "structural_transformation": {
+        "export_diversity_hhi": 0.5124417961569292,
+        "capability_index": 0.5651799202053513,
+        "industrial_policy_effectiveness": 0.675,
+        "export_sectors": {
+          "rmg": 55.035330326928154,
+          "leather": 7.519046704948181,
+          "jute": 2.494713815293643,
+          "frozen_food": 1.6775907351697839,
+          "pharma": 2.4651234519338177,
+          "it_services": 15.565872251823777,
+          "light_engineering": 4.6327604327431695,
+          "agro_processing": 5.710350382710391,
+          "home_textiles": 2.3965581930996915,
+          "shipbuilding": 0.7189674579299073
+        },
+        "total_exports": 98.21631375258052,
+        "is_projected": true
+      }
+    },
+    "2029": {
+      "structural_transformation": {
+        "export_diversity_hhi": 0.45394266076187867,
+        "capability_index": 0.6748543816732768,
+        "industrial_policy_effectiveness": 0.71,
+        "export_sectors": {
+          "rmg": 63.824110349310835,
+          "leather": 13.32044989966471,
+          "jute": 3.343155108481973,
+          "frozen_food": 2.379694520381933,
+          "pharma": 7.360819185499147,
+          "it_services": 42.02091508285191,
+          "light_engineering": 11.287240482822915,
+          "agro_processing": 12.534062763131779,
+          "home_textiles": 3.3995636005456187,
+          "shipbuilding": 1.0198690801636854
+        },
+        "total_exports": 160.48988007285448,
+        "is_projected": true
+      }
+    },
+    "2030": {
+      "structural_transformation": {
+        "export_diversity_hhi": 0.3940792144373408,
+        "capability_index": 0.8,
+        "industrial_policy_effectiveness": 0.745,
+        "export_sectors": {
+          "rmg": 75.8668107127737,
+          "leather": 25.957788499169922,
+          "jute": 4.704154966150387,
+          "frozen_food": 3.5781806880022073,
+          "pharma": 26.375145977752176,
+          "it_services": 133.85652827442237,
+          "light_engineering": 31.90022180022397,
+          "agro_processing": 31.363594080217677,
+          "home_textiles": 5.111686697146011,
+          "shipbuilding": 1.5335060091438029
+        },
+        "total_exports": 340.24761770500226,
+        "is_projected": true
+      }
+    }
+  }
+}

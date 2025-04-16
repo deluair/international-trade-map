@@ -1,0 +1,20 @@
+{
+  "description": "Pessimistic scenario with slower growth and potential stagnation.",
+  "parameters": {
+    "annual_changes": {
+      "export_diversity_hhi": -0.005,
+      "capability_index": 0.010,
+      "rmg_share": -0.005,
+      "it_services_growth": 0.10,
+      "pharma_growth": 0.12,
+      "light_engineering_growth": 0.08,
+      "jute_growth": 0.02,
+      "leather_growth": 0.04,
+      "agro_processing_growth": 0.06,
+      "default_sector_growth": 0.03,
+      "rmg_growth": 0.04
+    },
+    "policy_effectiveness_increase": 0.01,
+    "growth_decay_rate": 0.93
+  }
+} 

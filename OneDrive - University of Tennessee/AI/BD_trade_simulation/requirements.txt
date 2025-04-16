@@ -1,0 +1,30 @@
+numpy
+pandas
+plotly
+scikit-learn>=0.24.0
+networkx>=2.6.0
+seaborn>=0.11.0
+dash>=2.0.0
+geopandas>=0.10.0
+scipy>=1.7.0
+statsmodels>=0.13.0
+tqdm>=4.62.0
+pyyaml>=6.0
+# Additional required packages
+jupyter>=1.0.0
+ipywidgets>=7.6.0
+pysd>=3.9.0
+mesa>=1.1.0
+prophet>=1.1.0
+# For PDF exports from matplotlib
+reportlab>=3.6.0
+# For data handling
+openpyxl>=3.0.0
+xlrd>=2.0.0
+# For interactive visualization
+dash-bootstrap-components>=1.0.0
+kaleido>=0.2.0  # For static plotly image export
+ipython>=8.0.0
+# Testing and quality assurance
+pytest>=7.0.0
+flake8>=4.0.0

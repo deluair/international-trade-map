@@ -1,0 +1,491 @@
+# Bangladesh Trade Dynamics Simulation (2025-2050)
+# Default Configuration File
+
+# General Simulation Parameters
+random_seed: 42
+save_intermediate_results: true
+
+# Time Parameters
+start_year: 2025
+end_year: 2050
+time_step: 1  # in years
+
+# Data Configuration
+data_config:
+  historical_data_path: "data/bd_trade_data.csv"
+  country_codes_path: "data/country_codes_V202501.csv"
+  product_codes_path: "data/product_codes_HS92_V202501.csv"
+  data_cache_enabled: true
+  data_update_frequency: 30  # days
+
+# Export Sector Configuration
+export_sector_config:
+  sectors:
+    rmg:  # Ready-Made Garments
+      name: "Ready-Made Garments"
+      current_volume: 35000  # in million USD
+      growth_trajectory: 0.08  # annual growth rate
+      global_market_share: 0.06
+      value_chain_position: "low_to_mid"
+      competitiveness_factors:
+        labor_cost: 0.8
+        productivity: 0.6
+        compliance: 0.7
+        lead_time: 0.6
+        quality: 0.7
+      tariff_exposure: 0.15
+      subsectors:
+        - knitwear
+        - woven
+        - technical_textiles
+      
+    pharma:  # Pharmaceuticals
+      name: "Pharmaceuticals"
+      current_volume: 1500  # in million USD
+      growth_trajectory: 0.12
+      global_market_share: 0.01
+      value_chain_position: "mid"
+      competitiveness_factors:
+        r_and_d: 0.6
+        quality: 0.8
+        certification: 0.7
+        production_cost: 0.7
+        brand_recognition: 0.5
+      tariff_exposure: 0.08
+      subsectors:
+        - generic_drugs
+        - active_ingredients
+        - vaccines
+      
+    it_services:  # IT Services
+      name: "IT Services"
+      current_volume: 1200  # in million USD
+      growth_trajectory: 0.15
+      global_market_share: 0.005
+      value_chain_position: "mid"
+      competitiveness_factors:
+        skill_level: 0.7
+        english_proficiency: 0.8
+        infrastructure: 0.5
+        cost: 0.9
+        delivery_quality: 0.7
+      tariff_exposure: 0.02
+      subsectors:
+        - software_development
+        - bpo
+        - digital_services
+        - freelancing
+      
+    leather:  # Leather and Footwear
+      name: "Leather and Footwear"
+      current_volume: 1000  # in million USD
+      growth_trajectory: 0.10
+      global_market_share: 0.015
+      value_chain_position: "low_to_mid"
+      competitiveness_factors:
+        raw_material_quality: 0.7
+        processing_technology: 0.6
+        design_capability: 0.5
+        environmental_compliance: 0.5
+        cost: 0.8
+      tariff_exposure: 0.10
+      subsectors:
+        - finished_leather
+        - footwear
+        - leather_goods
+      
+    jute:  # Jute and Jute Products
+      name: "Jute and Jute Products"
+      current_volume: 800  # in million USD
+      growth_trajectory: 0.05
+      global_market_share: 0.40
+      value_chain_position: "mid"
+      competitiveness_factors:
+        raw_material_quality: 0.9
+        processing_technology: 0.6
+        product_diversification: 0.5
+        eco_friendly_appeal: 0.9
+        cost: 0.7
+      tariff_exposure: 0.05
+      subsectors:
+        - raw_jute
+        - jute_textiles
+        - diversified_jute_products
+      
+    agro_products:  # Agricultural Products
+      name: "Agricultural Products"
+      current_volume: 700  # in million USD
+      growth_trajectory: 0.06
+      global_market_share: 0.01
+      value_chain_position: "low"
+      competitiveness_factors:
+        quality: 0.7
+        certification: 0.5
+        yield: 0.6
+        processing_capability: 0.5
+        cost: 0.8
+      tariff_exposure: 0.12
+      subsectors:
+        - frozen_food
+        - processed_food
+        - tea
+        - vegetables
+        - fruits
+
+# Import Dependency Configuration
+import_dependency_config:
+  categories:
+    industrial_inputs:
+      name: "Industrial Inputs"
+      current_volume: 25000  # in million USD
+      domestic_production_ratio: 0.3
+      growth_trajectory: 0.08
+      price_sensitivity: 0.7
+      substitution_elasticity: 0.4
+      subcategories:
+        - cotton
+        - yarn
+        - fabric
+        - machinery
+        - chemicals
+        - metals
+        - plastics
+    
+    consumer_goods:
+      name: "Consumer Goods"
+      current_volume: 15000  # in million USD
+      domestic_production_ratio: 0.5
+      growth_trajectory: 0.10
+      price_sensitivity: 0.8
+      substitution_elasticity: 0.6
+      subcategories:
+        - food
+        - electronics
+        - vehicles
+        - luxury_goods
+        - household_items
+    
+    energy:
+      name: "Energy"
+      current_volume: 5000  # in million USD
+      domestic_production_ratio: 0.2
+      growth_trajectory: 0.07
+      price_sensitivity: 0.9
+      substitution_elasticity: 0.3
+      subcategories:
+        - crude_oil
+        - lng
+        - coal
+        - petroleum_products
+
+# Trade Policy Configuration
+trade_policy_config:
+  ldc_graduation:
+    year: 2026
+    eu_tariff_increase: 0.09
+    us_tariff_increase: 0.15
+    canada_tariff_increase: 0.12
+    japan_tariff_increase: 0.10
+    australia_tariff_increase: 0.08
+  
+  fta_implementation:
+    safta:
+      implementation_year: 2025
+      tariff_reduction: 0.05
+      coverage_ratio: 0.7
+    
+    bimstec:
+      implementation_year: 2028
+      tariff_reduction: 0.08
+      coverage_ratio: 0.6
+    
+    bilateral_japan:
+      implementation_year: 2031
+      tariff_reduction: 0.10
+      coverage_ratio: 0.8
+  
+  domestic_policy:
+    export_incentives: 0.05
+    import_tariff_rationalization_rate: 0.02
+    export_diversification_support: 0.07
+
+# Logistics Configuration
+logistics_config:
+  port_infrastructure:
+    chittagong_capacity_growth: 0.08
+    matarbari_start_year: 2028
+    payra_start_year: 2026
+    port_efficiency_improvement_rate: 0.05
+  
+  transport_infrastructure:
+    road_network_improvement_rate: 0.06
+    rail_freight_development_rate: 0.07
+    multimodal_connectivity_improvement: 0.05
+  
+  trade_facilitation:
+    customs_modernization_rate: 0.08
+    single_window_implementation_year: 2027
+    documentary_compliance_reduction_rate: 0.10
+    corruption_reduction_rate: 0.04
+
+# Exchange Rate Configuration
+exchange_rate_config:
+  initial_exchange_rate: 115.0  # BDT per USD
+  annual_depreciation_baseline: 0.03
+  intervention_threshold: 0.05
+  reserve_adequacy_months: 4.5
+  remittance_growth_rate: 0.06
+  fdi_growth_rate: 0.08
+
+# Global Market Configuration
+global_market_config:
+  advanced_economies:
+    growth_rate: 0.02
+    import_demand_growth: 0.025
+    consumption_pattern_shift_rate: 0.015
+  
+  emerging_markets:
+    growth_rate: 0.04
+    import_demand_growth: 0.05
+    consumption_pattern_shift_rate: 0.02
+  
+  global_supply_chains:
+    china_plus_one_benefit_factor: 0.6
+    reshoring_tendency_strength: 0.3
+    supply_chain_resilience_premium: 0.05
+  
+  competitor_countries:
+    vietnam_growth_rate: 0.09
+    india_growth_rate: 0.07
+    cambodia_growth_rate: 0.08
+    ethiopia_growth_rate: 0.10
+
+# Geopolitical Configuration
+geopolitical_config:
+  regional_integration:
+    bangladesh_india_cooperation_level: 0.7
+    bbin_implementation_probability: 0.6
+    bay_of_bengal_cooperation_level: 0.5
+  
+  global_power_dynamics:
+    us_china_tension_level: 0.6
+    belt_and_road_investment_level: 0.7
+    western_investment_level: 0.5
+  
+  trade_war_risk:
+    tariff_escalation_probability: 0.3
+    secondary_sanction_exposure: 0.2
+    technology_access_restriction_risk: 0.3
+
+# Compliance and Standards Configuration
+compliance_config:
+  labor_standards:
+    minimum_wage_annual_increase: 0.08
+    labor_rights_implementation_rate: 0.06
+    workplace_safety_investment_growth: 0.10
+  
+  environmental_compliance:
+    carbon_border_adjustment_start_year: 2030
+    green_factory_certification_growth: 0.15
+    circular_economy_adaptation_rate: 0.07
+  
+  product_standards:
+    testing_capacity_development_rate: 0.12
+    mutual_recognition_agreement_growth: 0.08
+    food_safety_standard_implementation_rate: 0.10
+
+# Structural Transformation Configuration
+structural_transformation_config:
+  export_diversification:
+    herfindahl_index_target_reduction: 0.15
+    new_product_emergence_rate: 0.03
+    knowledge_intensive_sector_growth: 0.12
+  
+  value_chain_positioning:
+    design_capability_development_rate: 0.08
+    branding_development_rate: 0.06
+    r_and_d_investment_growth: 0.15
+  
+  industrial_policy:
+    targeted_sector_success_probability: 0.6
+    technology_acquisition_support_level: 0.7
+    coordination_failure_resolution_capacity: 0.5
+
+# Digital Trade Configuration
+digital_trade_config:
+  e_commerce:
+    platform_adoption_rate: 0.15
+    cross_border_participation_growth: 0.20
+    digital_payment_system_development: 0.18
+  
+  digital_services:
+    it_service_export_growth: 0.25
+    freelancer_market_participation_growth: 0.30
+    innovation_ecosystem_development_rate: 0.15
+  
+  policy_environment:
+    data_localization_requirement_level: 0.3
+    digital_service_tax_implementation_year: 2028
+    intellectual_property_protection_strength: 0.6
+
+# Services Trade Configuration
+services_trade_config:
+  labor_services:
+    skilled_worker_export_growth: 0.10
+    bilateral_labor_agreements_growth: 0.08
+    remittance_fee_reduction_rate: 0.05
+  
+  tourism:
+    inbound_tourism_growth_target: 0.15
+    tourism_infrastructure_development_rate: 0.12
+    visa_facilitation_improvement_rate: 0.20
+  
+  business_services:
+    bpo_growth_rate: 0.18
+    knowledge_process_outsourcing_growth: 0.22
+    value_added_service_development_rate: 0.15
+
+# Investment Configuration
+investment_config:
+  foreign_direct_investment:
+    annual_growth_target: 0.15
+    investment_promotion_effectiveness: 0.6
+    incentive_package_attractiveness: 0.7
+  
+  domestic_investment:
+    local_investment_growth_rate: 0.08
+    sme_investment_capability_growth: 0.10
+    financing_constraint_reduction_rate: 0.06
+  
+  special_economic_zones:
+    sez_development_completion_rate: 0.12
+    occupancy_rate_growth: 0.15
+    backward_linkage_formation_rate: 0.08
+
+# Scenario Definitions
+scenarios:
+  baseline:
+    # Baseline uses the default configuration values
+    
+  optimistic:
+    export_sector_config:
+      sectors:
+        rmg:
+          growth_trajectory: 0.10
+        pharma:
+          growth_trajectory: 0.15
+        it_services:
+          growth_trajectory: 0.20
+    
+    global_market_config:
+      advanced_economies:
+        growth_rate: 0.025
+        import_demand_growth: 0.03
+      
+      global_supply_chains:
+        china_plus_one_benefit_factor: 0.8
+    
+    logistics_config:
+      port_infrastructure:
+        port_efficiency_improvement_rate: 0.08
+      
+      trade_facilitation:
+        customs_modernization_rate: 0.12
+    
+    structural_transformation_config:
+      export_diversification:
+        herfindahl_index_target_reduction: 0.25
+        new_product_emergence_rate: 0.05
+    
+    digital_trade_config:
+      e_commerce:
+        platform_adoption_rate: 0.20
+        cross_border_participation_growth: 0.25
+  
+  pessimistic:
+    export_sector_config:
+      sectors:
+        rmg:
+          growth_trajectory: 0.05
+        pharma:
+          growth_trajectory: 0.08
+        it_services:
+          growth_trajectory: 0.10
+    
+    global_market_config:
+      advanced_economies:
+        growth_rate: 0.015
+        import_demand_growth: 0.015
+      
+      global_supply_chains:
+        china_plus_one_benefit_factor: 0.4
+        reshoring_tendency_strength: 0.5
+    
+    logistics_config:
+      port_infrastructure:
+        port_efficiency_improvement_rate: 0.03
+      
+      trade_facilitation:
+        customs_modernization_rate: 0.05
+    
+    geopolitical_config:
+      trade_war_risk:
+        tariff_escalation_probability: 0.5
+        secondary_sanction_exposure: 0.4
+    
+    exchange_rate_config:
+      annual_depreciation_baseline: 0.05
+      reserve_adequacy_months: 3.0
+  
+  climate_shock:
+    # Scenario with severe climate impacts
+    logistics_config:
+      port_infrastructure:
+        port_efficiency_improvement_rate: 0.02
+      
+      transport_infrastructure:
+        road_network_improvement_rate: 0.03
+    
+    export_sector_config:
+      sectors:
+        agro_products:
+          growth_trajectory: 0.02
+        jute:
+          growth_trajectory: 0.03
+    
+    structural_transformation_config:
+      industrial_policy:
+        targeted_sector_success_probability: 0.4
+    
+    geopolitical_config:
+      global_power_dynamics:
+        belt_and_road_investment_level: 0.5
+        western_investment_level: 0.7
+  
+  digital_transformation:
+    # Scenario with accelerated digital transformation
+    digital_trade_config:
+      e_commerce:
+        platform_adoption_rate: 0.25
+        cross_border_participation_growth: 0.30
+        digital_payment_system_development: 0.25
+      
+      digital_services:
+        it_service_export_growth: 0.35
+        freelancer_market_participation_growth: 0.40
+    
+    services_trade_config:
+      business_services:
+        bpo_growth_rate: 0.25
+        knowledge_process_outsourcing_growth: 0.30
+    
+    structural_transformation_config:
+      value_chain_positioning:
+        design_capability_development_rate: 0.12
+        r_and_d_investment_growth: 0.20
+    
+    export_sector_config:
+      sectors:
+        it_services:
+          growth_trajectory: 0.30
+          global_market_share: 0.01 
